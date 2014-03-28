@@ -9,14 +9,17 @@ import java.awt.*;
 import javax.swing.*;
 import javax.swing.table.*;
 
+
+import java.io.File;
 import org.semanticweb.owlapi.model.OWLOntology;
+import org.yaolabs.epilepsy.counting.ExcelExporter;
 
 public class RowHeaderTable extends JFrame {
 
   private OWLOntology EEGOwl;
 
 public RowHeaderTable(final String headers[] , final String[][] CountTable , final OWLOntology EEGOwl) {
-	 super("Concept v/s EEG Files Table : To calculate weights"); 
+	 super("Concept v/s EEG Files Table : To calculate weights : Need to forward this to excel"); 
 	this.EEGOwl = EEGOwl;
    
     setSize(1200, 800);
@@ -102,6 +105,18 @@ public RowHeaderTable(final String headers[] , final String[][] CountTable , fin
 	jsp.setCorner(ScrollPaneConstants.UPPER_LEFT_CORNER,
 				  headerColumn.getTableHeader());
     getContentPane().add(jsp, BorderLayout.CENTER);
+    
+    try {
+        ExcelExporter exp = new ExcelExporter();
+        exp.toExcel(jt, new File("/Users/Shared/result.xls"));
+        JOptionPane.showMessageDialog(null, "Data saved at " +
+                "'C: \\ result.xls' successfully", "Message",
+                JOptionPane.INFORMATION_MESSAGE);
+    } catch (Exception ex) {
+        ex.printStackTrace();
+    }
+
+
   }
 
 //  public static void main(String args[]) {

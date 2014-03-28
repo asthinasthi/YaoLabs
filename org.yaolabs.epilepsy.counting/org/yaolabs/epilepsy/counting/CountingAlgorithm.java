@@ -39,6 +39,7 @@ import org.semanticweb.owlapi.apibinding.OWLManager;
 public class CountingAlgorithm {
 	
 private static OWLOntology EEGOwl;
+
 public static OWLOntology getEEGOwl() {
 	return EEGOwl;
 }
@@ -53,7 +54,7 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 /******************OPEN OWL FILE************************************************/
 		
 //		OWLOntology EEGOwl = OWLFileLoad("/Users/Ani/Dropbox/YaoNotes Project/Research/SoftwareDevelopment/workpsace/EEG_more_annotations.owl");
-		OWLOntology EEGOwl = OWLFileLoad("/Users/Ani/Dropbox/YaoNotes Project/Research/SoftwareDevelopment/OwlFiles/EEG_Summary_Dev.owl");
+//		OWLOntology EEGOwl = OWLFileLoad("/Users/Ani/Dropbox/YaoNotes Project/Research/SoftwareDevelopment/OwlFiles/EEG_Summary_Dev.owl");
 		
 /******************COUNT ALL THE INDIVIDUALS IN A GIVEN FILE BELONGING TO A CLASS************************************************/
 		
@@ -174,6 +175,23 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 			}
 		return AllIndividsofthiClass;
    }
+
+    /** Parses a class expression string to obtain all the subclasses
+     * 
+     * @param classExpressionString
+     *            The class expression string
+     */
+    public NodeSet<OWLClass> GetSubClassesofthisClass(OWLClass s , boolean IndirectSubClasses)  {
+		//Create Reasoner
+//		OWLOntologyManager manager = OWLManager.createOWLOntologyManager();
+//		IRI documentIRI = manager.getOntologyDocumentIRI(EEGOwl);
+	
+		 OWLReasoner reasoner = createReasoner(EEGOwl);
+		 
+		 return reasoner.getSubClasses(s, IndirectSubClasses);
+	        
+	   	
+    }
 	
 	public static Map<OWLNamedIndividual, Integer> GetIndividualsofaClassFileWise(OWLOntology EEGOwl , ArrayList<OWLNamedIndividual> BackgroundNormalIndivs){
 		
@@ -486,8 +504,6 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 	        			 System.out.println("Classes are : " + c);
 
 	        				 PatientProperties.add(c);
-	        			 
-
 	        		 }
 	        	 }
 	         }
@@ -624,6 +640,7 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 	        // Do the actual parsing
 	        return parser.parseClassExpression();
 	    }
+	    
 	}
 	
 

@@ -6,6 +6,8 @@ import java.util.Map;
 import org.semanticweb.owlapi.model.OWLNamedIndividual;
 
 public class Vector {
+	OWLNamedIndividual owlindividual;
+	Integer integer;
 	
 	Map<OWLNamedIndividual,Integer> vector = new HashMap<OWLNamedIndividual,Integer>();
 	
@@ -28,4 +30,23 @@ public class Vector {
 	{
 		vector.putAll(V.vector);
 	}
+	
+	public int hashCode()
+	{
+		return owlindividual.hashCode() + integer.hashCode();
+	}
+
+	public boolean equals(Object o) {
+	Vector v = (Vector)o;
+
+	if ( v.owlindividual == this.owlindividual
+			&& v.integer == this.integer)
+	{		
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
 }

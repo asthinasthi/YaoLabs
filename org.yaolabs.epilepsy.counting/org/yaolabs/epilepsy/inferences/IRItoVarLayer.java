@@ -33,8 +33,8 @@ public class IRItoVarLayer extends CountAlgoCall{
 	String forOverride = null;
 	
 	//Store Variables from IRIs
-	static Map<String , OWLNamedIndividual> IRItoVariable = new HashMap<String , OWLNamedIndividual>();
-	static Map<OWLNamedIndividual , ArrayList<OWLNamedIndividual>> Concept_GoldStandardsMap = new HashMap<OWLNamedIndividual , ArrayList<OWLNamedIndividual>>();
+	static Map<String , OWLClass> IRItoVariable = new HashMap<String , OWLClass>();
+	static Map<OWLClass , ArrayList<OWLClass>> Concept_GoldStandardsMap = new HashMap<OWLClass , ArrayList<OWLClass>>();
 	
 public static void main(String[] args)
 {
@@ -101,7 +101,7 @@ public boolean equals(Object o) {
 	}
 }
 
-static void IRItoVariable(OWLClass i , Map<String , OWLNamedIndividual> Destination , OWLDataFactory dataFactory)
+static void IRItoVariable(OWLClass i , Map<String , OWLClass> Destination , OWLDataFactory dataFactory)
 {
 	System.out.println("Adding IRI of OWLClass " + i.toString() + "to IRItoVariable Map ");
 	int begin = 0;
@@ -123,13 +123,14 @@ static void IRItoVariable(OWLClass i , Map<String , OWLNamedIndividual> Destinat
 	System.out.println("IRIend = " + IRIend);
 	
 	if(begin!= 0 || end!=-1)
-		Destination.put(i.toString().substring(begin,end), dataFactory.getOWLNamedIndividual(IRI.create(forIRI)));
+//		Destination.put(i.toString().substring(begin,end), dataFactory.getOWLClass(IRI.create(forIRI)));
+		Destination.put(i.toString().substring(begin,end), i);
 
 }
 
-static void ConceptGoldStandard(String s ,  Map<OWLNamedIndividual , ArrayList<OWLNamedIndividual>> Destination , Set<OWLAnnotation> annotations)
+static void ConceptGoldStandard(String s ,  Map<OWLClass , ArrayList<OWLClass>> Destination , Set<OWLAnnotation> annotations)
 {
-	ArrayList<OWLNamedIndividual> GoldStdList = new ArrayList<OWLNamedIndividual>();
+	ArrayList<OWLClass> GoldStdList = new ArrayList<OWLClass>();
 	
 	System.out.println("Adding GoldStandards for : " + s );
 	
@@ -162,7 +163,7 @@ static void ConceptGoldStandard(String s ,  Map<OWLNamedIndividual , ArrayList<O
 			String temp = owlAnnotation.toString().substring(begin,end);
 			
 			//lookup for Class with this with this String value
-		OWLNamedIndividual OL = IRItoVariable.get(temp);
+		OWLClass OL = IRItoVariable.get(temp);
 
 		System.out.println("OL is : " + OL);
 		System.out.println("Adding to List : " + temp);
@@ -173,7 +174,7 @@ static void ConceptGoldStandard(String s ,  Map<OWLNamedIndividual , ArrayList<O
 	}
 	
 	//Translate string to its OWLNamedIndividual Variable
-	OWLNamedIndividual getVarfromMap = IRItoVariable.get(s);
+	OWLClass getVarfromMap = IRItoVariable.get(s);
 	Destination.put(getVarfromMap, GoldStdList);
 	
 }	
@@ -192,4 +193,5 @@ static void ConceptGoldStandard(String s ,  Map<OWLNamedIndividual , ArrayList<O
 		return OwlFile;
 	}
 	
+			
 }

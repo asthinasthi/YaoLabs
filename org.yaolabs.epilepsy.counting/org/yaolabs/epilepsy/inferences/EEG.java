@@ -62,8 +62,6 @@ public class EEG {
 		OPA.GetPropertiesofFile(EEGOwl, Patients);
 		Patient_ObjProp_Map = OPA.getPatient_ObjProp_Map();
 		
-		ArrayList<OWLNamedIndividual> AlphaRhythm = new ArrayList<OWLNamedIndividual>();
-		
 		OWLOntologyManager man = OWLManager.createOWLOntologyManager();
         String base = "http://www.owl-ontologies.com/unnamed.owl";
         try {
@@ -89,6 +87,12 @@ public class EEG {
 		  
 		 
 
+//		  for(OWLNamedIndividual pat1 : Patients)
+//		  {
+//			  Patient_VectorList.put(pat1, EEG_GoldStdVariables.NormalPattern_Vector_Init);
+//		  }
+		  
+		  
 		  for(OWLNamedIndividual pat1 : Patients)
 		  {
 			  Patient_VectorList.put(pat1, EEG_GoldStdVariables.NormalPattern_Vector_Init);

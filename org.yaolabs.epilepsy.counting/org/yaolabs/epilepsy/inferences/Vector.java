@@ -3,23 +3,24 @@ package org.yaolabs.epilepsy.inferences;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.semanticweb.owlapi.model.OWLClass;
 import org.semanticweb.owlapi.model.OWLNamedIndividual;
 
 public class Vector {
-	OWLNamedIndividual owlindividual;
-	Integer integer;
+	OWLClass owlClass;
+	Integer magnitude;
 	
-	Map<OWLNamedIndividual,Integer> vector = new HashMap<OWLNamedIndividual,Integer>();
+	Map<OWLClass,Integer> vector = new HashMap<OWLClass,Integer>();
 	
-	public Map<OWLNamedIndividual, Integer> getVector() {
+	public Map<OWLClass, Integer> getVector() {
 		return vector;
 	}
 
-	public void setVector(Map<OWLNamedIndividual, Integer> vector) {
+	public void setVector(Map<OWLClass, Integer> vector) {
 		this.vector = vector;
 	}
 
-	public void add(OWLNamedIndividual C , Integer I)
+	public void add(OWLClass C , Integer I)
 	{
 		vector.put(C, I);
 	}
@@ -33,14 +34,14 @@ public class Vector {
 	
 	public int hashCode()
 	{
-		return owlindividual.hashCode() + integer.hashCode();
+		return owlClass.hashCode() + magnitude.hashCode();
 	}
 
 	public boolean equals(Object o) {
 	Vector v = (Vector)o;
 
-	if ( v.owlindividual == this.owlindividual
-			&& v.integer == this.integer)
+	if ( v.owlClass == this.owlClass
+			&& v.magnitude == this.magnitude)
 	{		
 		return true;
 	}

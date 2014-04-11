@@ -22,10 +22,10 @@ import org.yaolabs.epilepsy.counting.CountAlgoCall;
 // We take all the IRIs to convert it to variables
 public class IRItoVarLayer extends CountAlgoCall{
 
-	public IRItoVarLayer(OWLOntology EEGOwl) {
-		super(EEGOwl);
-		// TODO Auto-generated constructor stub
-	}
+//	public IRItoVarLayer(OWLOntology EEGOwl) {
+//		super(EEGOwl);
+//		// TODO Auto-generated constructor stub
+//	}
 	
 	//Load an existing Ontology
 	static OWLOntology EEGOwl	= OWLFileLoad("/Users/Ani/Dropbox/YaoNotes Project/Research/SoftwareDevelopment/OwlFiles/GoldStandard_Framework.owl");
@@ -36,9 +36,10 @@ public class IRItoVarLayer extends CountAlgoCall{
 	static Map<String , OWLClass> IRItoVariable = new HashMap<String , OWLClass>();
 	static Map<OWLClass , ArrayList<OWLClass>> Concept_GoldStandardsMap = new HashMap<OWLClass , ArrayList<OWLClass>>();
 	
-public static void main(String[] args)
+//public static void main(String[] args)
+	IRItoVarLayer(OWLOntology EEGOwl)
 {
-
+		super(EEGOwl);
 	// Obj to call library functions
 	CountAlgoCall LibObj = new CountAlgoCall(EEGOwl);
 	try {

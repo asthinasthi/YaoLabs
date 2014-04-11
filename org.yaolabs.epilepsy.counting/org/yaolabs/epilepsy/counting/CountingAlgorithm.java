@@ -453,7 +453,7 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 	         // set.
 
 	         Set<OWLNamedIndividual> individuals = individualsNodeSet.getFlattened();
-	         System.out.println("Instances of pet: ");
+	         System.out.println("Instances of Patients: ");
 	         for (OWLNamedIndividual ind : individuals) {
 	             System.out.println(ind);
 	         }

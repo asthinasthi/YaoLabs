@@ -6,6 +6,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
+import javax.swing.JViewport;
+
 import org.semanticweb.HermiT.Reasoner;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.IRI;
@@ -25,6 +27,11 @@ public class EEG_GoldStdVariables {
 	  
 	  static Vector AtomicVectors = new Vector();
 	  
+	  static Map<String , Atomic_Vector> AtomicVectorMap = new HashMap<String,Atomic_Vector>();
+	  static Map<String , ArrayList<Atomic_Vector>> ConceptVectorMap = new HashMap<String,ArrayList<Atomic_Vector>>();
+	  
+	  static Map<String , ArrayList<CalcMolecule_Vector>> NormalPatternVector = new HashMap<String,ArrayList<CalcMolecule_Vector>>();
+	  
 	  static Vector EEG_Vector = new Vector();
 	  static Vector NormalPattern_Vector = new Vector();
 	  
@@ -41,8 +48,8 @@ public class EEG_GoldStdVariables {
 
 
 
-//	EEG_GoldStdVariables()
-	public static void main(String[] args)
+	EEG_GoldStdVariables()
+//	public static void main(String[] args)
 	{
 
 	ArrayList<OWLNamedIndividual> AlphaRhythm = new ArrayList<OWLNamedIndividual>();
@@ -805,8 +812,8 @@ public class EEG_GoldStdVariables {
 			  // Should be GoldStandardOwlFile
 			  IRItoVarLayer GoldStandardOwlFileData = new IRItoVarLayer(GoldStandardsFile);    
 		reasoner = createReasoner(GoldStandardsFile);
-				 
-				  
+	
+	  	//Create atomic vectors for all properties		  
 	    OWLClass Properties = dataFactory.getOWLClass( (IRI.create(ontoIRI+ "#Properties") ));
 	    System.out.println("Properties IRI : " + Properties.toString() );
 	    NodeSet<OWLClass> PropertiesSetRaw = reasoner.getSubClasses(Properties, false);
@@ -815,27 +822,46 @@ public class EEG_GoldStdVariables {
 	    
 	  	for(OWLClass ConceptinNormalPattern : PropertiesSet )
 	  	{	  		
-	  		AtomicVectors.add(ConceptinNormalPattern,1);
+	  		IRI iriOfthisConcept = ConceptinNormalPattern.getIRI();
+	  		OWLNamedIndividual owlNamedIndividualOfthisClass = dataFactory.getOWLNamedIndividual(iriOfthisConcept) ;
+	  		//Convert OWLClass to OWLNamedIndividual
+	  		Atomic_Vector jV = new Atomic_Vector(owlNamedIndividualOfthisClass , (float)1);
+	  		AtomicVectorMap.put(jV.getName(), jV) ;
 	  	}
-	    
+	    System.out.println("Atomic Vector Map" + AtomicVectorMap);
+	  	
 	  	OWLClass Concepts = dataFactory.getOWLClass( (IRI.create(ontoIRI+ "#Concept") ));
 	  	NodeSet<OWLClass> NoramlPatternConceptsRaw = reasoner.getSubClasses(Concepts, false);
 	  	Set<OWLClass> NormalPatternConcepts = NoramlPatternConceptsRaw.getFlattened();
 	  	
-	  	//Create Vectors for every Concept in Normal Pattern 
-	  	// Normal_Pattern = AlphaRhythm + Alpha_Variant_Rhythm +...+ 
-	  	for(OWLClass c : NormalPatternConcepts)
+	  	//Create Vectors for every Concept Molecule in Normal Pattern 
+	  	for(OWLClass concept : GoldStandardOwlFileData.Concept_GoldStandardsMap.keySet() )
 	  	{
-	  		NormalPattern_Vector.add(c, 1);
-	  	}
-	  	System.out.println("Normal Pattern Vectors : " + NormalPattern_Vector.vector);
+	  		System.out.println("Creating Vectors for : " + concept.getIRI().getFragment());
+	  		ArrayList<OWLClass> itsProperties = new ArrayList<OWLClass>(GoldStandardOwlFileData.Concept_GoldStandardsMap.get(concept));	
+	  		
+	  		//Calc Atomic Vectors from its Properties
+	  		ArrayList<Atomic_Vector> itsAtomicVectors = new ArrayList<Atomic_Vector>();
+	  		for(OWLClass property : itsProperties)
+	  		{
+		  		IRI propertyIRI = property.getIRI();
+		  		OWLNamedIndividual owlNamedIndividualOfthisProperty = dataFactory.getOWLNamedIndividual(propertyIRI) ;
+		  		//Convert OWLClass to OWLNamedIndividual
+		  		Atomic_Vector jV = new Atomic_Vector(owlNamedIndividualOfthisProperty , (float)1);
+		  		//Get the corresponding Vector from exhaustive AtomicVectorMap and add it to this vector list
+	  			itsAtomicVectors.add( AtomicVectorMap.get(jV.getName()));
+	  			System.out.println("class : " + concept + " Its atomic Vectors" + itsAtomicVectors);
+	  		}
+	  		CalcMolecule_Vector mV = new CalcMolecule_Vector(concept, itsAtomicVectors);
+	  		//String , ArrayList
+	  		ConceptVectorMap.put(concept.getIRI().getFragment() , itsAtomicVectors);
+     	}
 
-	  	for(IRItoVariable)
-	  	{
-	  		NormalPatternConcepts_Vector.
-	  	}
+	  	System.out.println("Concept Vector Map  : " + ConceptVectorMap);
+	  	
 	  	
 	  	//Create vector for every concept in Normal Pattern
+	  	//..
 	  	
 	  	for(OWLClass ConceptinNormalPattern : PropertiesSet)
 	  	{

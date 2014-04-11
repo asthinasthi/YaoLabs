@@ -85,14 +85,12 @@ public class ObjectPropAssertions {
 		
 		
 		//for every individual get all the annotations in that file
+		// These annotations or classes
 		for(OWLNamedIndividual pat : Patients )
 		{
 				Patient_ObjProp_Map.put(pat, ObjCountAlgorithm.GetClassInstancesofEEGFile(pat,EEGOwl) )	;
 		}
 		
-
-			
-			
 			for(OWLNamedIndividual i : Patient_ObjProp_Map.keySet() )
 			{
 				System.out.println( "Individual : " + i +" "+  Patient_ObjProp_Map.get(i));

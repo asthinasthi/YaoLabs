@@ -1,0 +1,474 @@
+2014-04-10 18:09:34,204 [INFO ] org.yaolabs.epilepsy.inferences.EEG  - Entering ConvertObjProptoVector ...
+2014-04-10 18:09:34,205 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - {Relaxed=org.yaolabs.epilepsy.inferences.Atomic_Vector@624e61b, Semiology=org.yaolabs.epilepsy.inferences.Atomic_Vector@58c7d7a9, Nothing=org.yaolabs.epilepsy.inferences.Atomic_Vector@f3004f59, Awake=org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, Adult=org.yaolabs.epilepsy.inferences.Atomic_Vector@c53ac331, Exams=org.yaolabs.epilepsy.inferences.Atomic_Vector@c5bd1825, eyes_closed=org.yaolabs.epilepsy.inferences.Atomic_Vector@1aefffcf, Attenuation=org.yaolabs.epilepsy.inferences.Atomic_Vector@225b0e11, Posterior=org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, Occipital=org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5}
+2014-04-10 18:09:34,205 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_107.txt>
+2014-04-10 18:09:34,205 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb]
+2014-04-10 18:09:34,205 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_10.txt>
+2014-04-10 18:09:34,205 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7]
+2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_104.txt>
+2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb]
+2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_0.txt>
+2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7]
+2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_102.txt>
+2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7]
+2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_103.txt>
+2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7]
+2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_105.txt>
+2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7]
+2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_100.txt>
+2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5]
+2014-04-10 18:09:34,207 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_1.txt>
+2014-04-10 18:09:34,207 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7]
+2014-04-10 18:09:34,207 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_106.txt>
+2014-04-10 18:09:34,207 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb]
+2014-04-10 18:09:34,207 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_101.txt>
+2014-04-10 18:09:34,207 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5]
+2014-04-10 18:09:34,207 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [[org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb], [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb], [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7], [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7], [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7], [org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7], [org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5], [org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7], [org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5], [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb], [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7]]
+2014-04-10 18:09:34,208 [INFO ] org.yaolabs.epilepsy.inferences.EEG  - Exiting ConvertObjProptoVector ---
+2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
+2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
+2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
+2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
+2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
+2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
+2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
+2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
+2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
+2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Occipital
+2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 2.449489742783178
+2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
+2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.33333333333333337 with Concept:Alpha_Rhythms
+2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
+2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
+2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
+2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
+2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
+2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
+2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
+2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 2.449489742783178
+2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
+2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.20412414523193154 with Concept:Alpha_Variants_Rhythms
+2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.33333333333333337, 0.20412414523193154]
+2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_107.txt is :{Alpha_Rhythms=0.33333333333333337, Alpha_Variants_Rhythms=0.20412414523193154}
+2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
+2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_107.txt>
+2014-04-10 18:09:34,211 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Rhythms>
+2014-04-10 18:09:34,633 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:34,633 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
+2014-04-10 18:09:34,633 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_107.txt>
+2014-04-10 18:09:34,633 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
+2014-04-10 18:09:34,866 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:34,866 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:34,866 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:34,866 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:34,866 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:34,866 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:34,866 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:34,866 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Occipital
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 2.23606797749979
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.3651483716701107 with Concept:Alpha_Rhythms
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
+2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
+2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
+2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
+2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
+2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 2.23606797749979
+2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
+2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.22360679774997896 with Concept:Alpha_Variants_Rhythms
+2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.3651483716701107, 0.22360679774997896]
+2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_104.txt is :{Alpha_Rhythms=0.3651483716701107, Alpha_Variants_Rhythms=0.22360679774997896}
+2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
+2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_104.txt>
+2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Rhythms>
+2014-04-10 18:09:35,215 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,215 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
+2014-04-10 18:09:35,215 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_104.txt>
+2014-04-10 18:09:35,215 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
+2014-04-10 18:09:35,333 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,333 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,333 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,333 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,333 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,333 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,333 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,333 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,431 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
+2014-04-10 18:09:35,431 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:35,431 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:35,431 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
+2014-04-10 18:09:35,431 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
+2014-04-10 18:09:35,431 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 2.0
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.20412414523193154 with Concept:Alpha_Rhythms
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 2.0
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.25 with Concept:Alpha_Variants_Rhythms
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.25, 0.20412414523193154]
+2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_10.txt is :{Alpha_Rhythms=0.20412414523193154, Alpha_Variants_Rhythms=0.25}
+2014-04-10 18:09:35,433 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,433 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
+2014-04-10 18:09:35,433 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_10.txt>
+2014-04-10 18:09:35,433 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
+2014-04-10 18:09:35,522 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,522 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
+2014-04-10 18:09:35,522 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_10.txt>
+2014-04-10 18:09:35,522 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Rhythms>
+2014-04-10 18:09:35,594 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,594 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,594 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,594 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,594 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,594 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,594 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,594 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.4142135623730951
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.0 with Concept:Alpha_Rhythms
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.4142135623730951
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.0 with Concept:Alpha_Variants_Rhythms
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.0, 0.0]
+2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_0.txt is :{Alpha_Rhythms=0.0, Alpha_Variants_Rhythms=0.0}
+2014-04-10 18:09:35,690 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,690 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
+2014-04-10 18:09:35,690 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_0.txt>
+2014-04-10 18:09:35,690 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
+2014-04-10 18:09:35,770 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,770 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
+2014-04-10 18:09:35,770 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_0.txt>
+2014-04-10 18:09:35,771 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
+2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
+2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.0
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.0 with Concept:Alpha_Rhythms
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.0
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.0 with Concept:Alpha_Variants_Rhythms
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.0, 0.0]
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_103.txt is :{Alpha_Rhythms=0.0, Alpha_Variants_Rhythms=0.0}
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
+2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_103.txt>
+2014-04-10 18:09:35,855 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
+2014-04-10 18:09:35,937 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,937 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
+2014-04-10 18:09:35,937 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_103.txt>
+2014-04-10 18:09:35,937 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
+2014-04-10 18:09:35,995 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,995 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,995 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.4142135623730951
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.2886751345948129 with Concept:Alpha_Rhythms
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.4142135623730951
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
+2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.35355339059327373 with Concept:Alpha_Variants_Rhythms
+2014-04-10 18:09:35,997 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.35355339059327373, 0.2886751345948129]
+2014-04-10 18:09:35,997 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_102.txt is :{Alpha_Rhythms=0.2886751345948129, Alpha_Variants_Rhythms=0.35355339059327373}
+2014-04-10 18:09:35,997 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:35,997 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
+2014-04-10 18:09:35,997 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_102.txt>
+2014-04-10 18:09:35,997 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
+2014-04-10 18:09:36,048 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,048 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
+2014-04-10 18:09:36,048 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_102.txt>
+2014-04-10 18:09:36,048 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Rhythms>
+2014-04-10 18:09:36,105 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,105 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,105 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,105 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,105 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,105 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,105 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,105 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Occipital
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.0
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.4082482904638631 with Concept:Alpha_Rhythms
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.0
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.0 with Concept:Alpha_Variants_Rhythms
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.4082482904638631, 0.0]
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_100.txt is :{Alpha_Rhythms=0.4082482904638631, Alpha_Variants_Rhythms=0.0}
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
+2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_100.txt>
+2014-04-10 18:09:36,162 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Rhythms>
+2014-04-10 18:09:36,227 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,227 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
+2014-04-10 18:09:36,227 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_100.txt>
+2014-04-10 18:09:36,227 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
+2014-04-10 18:09:36,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
+2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
+2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
+2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
+2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
+2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.7320508075688772
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.23570226039551587 with Concept:Alpha_Rhythms
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.7320508075688772
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.2886751345948129 with Concept:Alpha_Variants_Rhythms
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.2886751345948129, 0.23570226039551587]
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_105.txt is :{Alpha_Rhythms=0.23570226039551587, Alpha_Variants_Rhythms=0.2886751345948129}
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_105.txt>
+2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
+2014-04-10 18:09:36,391 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,391 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
+2014-04-10 18:09:36,391 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_105.txt>
+2014-04-10 18:09:36,391 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Rhythms>
+2014-04-10 18:09:36,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
+2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
+2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
+2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
+2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
+2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Occipital
+2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.0
+2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
+2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.4082482904638631 with Concept:Alpha_Rhythms
+2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
+2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
+2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
+2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.0
+2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
+2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.0 with Concept:Alpha_Variants_Rhythms
+2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.4082482904638631, 0.0]
+2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_101.txt is :{Alpha_Rhythms=0.4082482904638631, Alpha_Variants_Rhythms=0.0}
+2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
+2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_101.txt>
+2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Rhythms>
+2014-04-10 18:09:36,674 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,674 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
+2014-04-10 18:09:36,674 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_101.txt>
+2014-04-10 18:09:36,674 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
+2014-04-10 18:09:36,732 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,732 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,732 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,732 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,732 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,732 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,732 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,732 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.4142135623730951
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.2886751345948129 with Concept:Alpha_Rhythms
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
+2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
+2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.4142135623730951
+2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
+2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.35355339059327373 with Concept:Alpha_Variants_Rhythms
+2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.35355339059327373, 0.2886751345948129]
+2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_106.txt is :{Alpha_Rhythms=0.2886751345948129, Alpha_Variants_Rhythms=0.35355339059327373}
+2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
+2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_106.txt>
+2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
+2014-04-10 18:09:36,852 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,852 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
+2014-04-10 18:09:36,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_106.txt>
+2014-04-10 18:09:36,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Rhythms>
+2014-04-10 18:09:36,970 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,970 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,970 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,970 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,970 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,970 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,970 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:36,970 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.4142135623730951
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.0 with Concept:Alpha_Rhythms
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.4142135623730951
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
+2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.0 with Concept:Alpha_Variants_Rhythms
+2014-04-10 18:09:37,029 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.0, 0.0]
+2014-04-10 18:09:37,029 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_1.txt is :{Alpha_Rhythms=0.0, Alpha_Variants_Rhythms=0.0}
+2014-04-10 18:09:37,029 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:37,029 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
+2014-04-10 18:09:37,029 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_1.txt>
+2014-04-10 18:09:37,029 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
+2014-04-10 18:09:37,073 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:37,073 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
+2014-04-10 18:09:37,073 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_1.txt>
+2014-04-10 18:09:37,073 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
+2014-04-10 18:09:37,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:37,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:37,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:37,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:37,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:37,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:37,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-10 18:09:37,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 

@@ -24,6 +24,7 @@ public class ExcelExporter{
         for(int i=0; i< model.getRowCount(); i++) {
             for(int j=0; j < model.getColumnCount(); j++) {
                 excel.write(model.getValueAt(i,j).toString()+"\t");
+                System.out.println(model.getValueAt(0,j).toString()+"\t");
             }
             excel.write("\n");
         }

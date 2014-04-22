@@ -41,6 +41,11 @@ import org.yaolabs.epilepsy.counting.CountingAlgorithm;
 
 
 public class EEG {
+	public EEG(OWLOntology EEGOwl )
+	{
+		this.EEGOwl = EEGOwl;
+		////System.out.println("ONtology passed is " + EEGOwl.toString());
+	}
 	static Logger logger = Logger.getLogger(org.yaolabs.epilepsy.inferences.EEG.class);
 	static FileHandler fh;
 	static PrintStream stdout = System.out; 
@@ -68,7 +73,7 @@ public class EEG {
 
 				//get all FILE INDIVIDUALS , which are the patients.
 			 File file = new File("/Users/Ani/Dropbox/YaoNotes Project/Research/SoftwareDevelopment/OwlFiles/EEG_Summary_Dev.owl");
-			OWLOntology EEGOwl = OWLFileLoad("/Users/Ani/Dropbox/YaoNotes Project/Research/SoftwareDevelopment/OwlFiles/EEG_Summary_Dev.owl");
+//			OWLOntology EEGOwl = OWLFileLoad("/Users/Ani/Dropbox/YaoNotes Project/Research/SoftwareDevelopment/OwlFiles/EEG_Summary_Dev.owl");
 				
 			CountAlgoCall DataCollected = new CountAlgoCall(EEGOwl);
 			

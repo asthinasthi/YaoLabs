@@ -17,7 +17,7 @@ public  class CountAlgoCall {
 	public CountAlgoCall(OWLOntology EEGOwl )
 	{
 		this.EEGOwl = EEGOwl;
-		System.out.println("ONtology passed is " + EEGOwl.toString());
+		//System.out.println("ONtology passed is " + EEGOwl.toString());
 	}
 
 	
@@ -34,7 +34,7 @@ public  class CountAlgoCall {
 		AllFileindividuals = allFileindividuals;
 	}
 
-	public Map<OWLNamedIndividual, Integer> getIndividualsPerFile() {
+	public static Map<OWLNamedIndividual, Integer> getIndividualsPerFile() {
 		return IndividualsPerFile;
 	}
 
@@ -77,25 +77,25 @@ public  class CountAlgoCall {
 		//String classarg = "<http://www.owl-ontologies.com/unnamed.owl#BackgroundNormal>";
 
 		IndividualsofthisClass = CallObj.GetAllIndividualsofClass( EEGOwl , classarg);
-		//System.out.println("TOTAL number of INDIVIDUALS OF THIS CLASS : "+ classarg.substring(43) + " " + IndividualsofthisClass.size());
-		System.out.println("THE INDIVIDUALS ARE :");
+		////System.out.println("TOTAL number of INDIVIDUALS OF THIS CLASS : "+ classarg.substring(43) + " " + IndividualsofthisClass.size());
+		////System.out.println("THE INDIVIDUALS ARE :");
 		for(OWLNamedIndividual O : IndividualsofthisClass)
 		{
-			System.out.println(O);
+			//System.out.println(O);
 		}
 		
 	/******************COUNT ALL THE INDIVIDUALS/FILE BELONGING TO A CLASS************************************************/		
 		
 		
 		IndividualsPerFile = CallObj.GetIndividualsofaClassFileWise( EEGOwl , IndividualsofthisClass);
-		System.out.println("THE INDIVIDUALS IN VARIOUS FILES ARE :");
+		//System.out.println("THE INDIVIDUALS IN VARIOUS FILES ARE :");
 		for(Map.Entry<OWLNamedIndividual, Integer> entry : IndividualsPerFile.entrySet())
 		{
-			System.out.println(entry);
+			//System.out.println(entry);
 		}
 	
-		System.out.println("\n"+"*********************************************************************************"+"\n");
-		System.out.println();
+		//System.out.println("\n"+"*********************************************************************************"+"\n");
+		//System.out.println();
 		return IndividualsPerFile;
 
 	}
@@ -115,14 +115,14 @@ public  class CountAlgoCall {
 //		OWLOntology EEGOwl = CountingAlgorithm.OWLFileLoad("/Users/Ani/Dropbox/YaoNotes Project/Research/SoftwareDevelopment/workpsace/Annotations_from_Kim.owl");
 	SubClassesofEEG = CountingAlgorithm.GetAllsubclassesOfEEG(EEGOwl , "http://www.owl-ontologies.com/unnamed.owl#EEG");
 	
-	System.out.println("THE SUBCLASSES IN EEG ARE :");
+	//System.out.println("THE SUBCLASSES IN EEG ARE :");
 	for(OWLClass entry : SubClassesofEEG)
 	{
-		System.out.println(entry);
+		//System.out.println(entry);
 	}
 
-	System.out.println("\n"+"*********************************************************************************"+"\n");
-	System.out.println();
+	//System.out.println("\n"+"*********************************************************************************"+"\n");
+	//System.out.println();
 	}
 
 

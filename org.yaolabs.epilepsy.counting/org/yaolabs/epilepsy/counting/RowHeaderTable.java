@@ -33,7 +33,7 @@ public RowHeaderTable(final String headers[] , final String[][] CountTable , fin
                          // "Column 4", "Column 5"};
       CreateTable obj = new CreateTable(EEGOwl);
       public int getColumnCount() { return obj.getNumAnnotatedFiles(); }
-      public int getRowCount() { return 1000; }
+      public int getRowCount() { return 400; }
       public String getColumnName(int col) { return headers[col]; }
      // Synthesize some entries using the data values & the row #
       public Object getValueAt(int row, int col) { 

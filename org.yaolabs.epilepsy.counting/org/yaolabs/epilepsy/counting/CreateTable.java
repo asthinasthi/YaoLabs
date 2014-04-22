@@ -1,9 +1,11 @@
 package org.yaolabs.epilepsy.counting;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
+import org.apache.log4j.Logger;
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLClass;
@@ -18,27 +20,29 @@ import org.semanticweb.owlapi.reasoner.NodeSet;
 public class CreateTable {
 	
 	private static OWLOntology EEGOwl;
-	static int j = 0;
+	static Logger logger = Logger.getLogger(org.yaolabs.epilepsy.inferences.EEG.class);
+	static int rowNumberforHeaderNames = 0;
 	public static CountingAlgorithm countalgoObj ;
+	public static LinkedHashMap<String , Integer> RowNameIndex = new LinkedHashMap<String , Integer>();
 	public CreateTable(OWLOntology EEGOwl )
 	{
 		this.EEGOwl = EEGOwl;
-		System.out.println("ONtology passed is " + EEGOwl.toString());
+		////System.out.println("ONtology passed is " + EEGOwl.toString());
 	}
-	final static int NUM_ANNOTATED_FILES  = 300;
+	final static int NUM_ANNOTATED_FILES  = 400;
 	public static int getNumAnnotatedFiles() {
 		return NUM_ANNOTATED_FILES;
 	}
 // +4 is done to accomodate averages
 	static String[][] CountTable = new String[NUM_ANNOTATED_FILES][NUM_ANNOTATED_FILES+4];
 
-	public static void main(String[] arg) throws OWLOntologyCreationException	
+	public static void main(String[] arg) throws OWLOntologyCreationException
 	{
 
 //		CountingAlgorithm  CallObj = new CountingAlgorithm();
-		
+	
 //		 EEGOwl = CountingAlgorithm.OWLFileLoad("/Users/Ani/Dropbox/YaoNotes Project/Research/SoftwareDevelopment/OwlFiles/Penny_Annotations_Mar12_Owl.owl");
-
+//		 EEGOwl = CountingAlgorithm.OWLFileLoad("/Users/Ani/Documents/VM/Penny_Apr_14.owl");
 		/*Init*/
 		for(int i=0;i< NUM_ANNOTATED_FILES ;i++)
 			for(int j=0; j< NUM_ANNOTATED_FILES+4 ;j++)
@@ -60,34 +64,50 @@ public class CreateTable {
 		rowheaderobj.AllSubClassesofEEG();
 		Set<OWLClass> AllSubClassesofEEG = rowheaderobj.getSubClassesofEEG();
 		Set<OWLClass> DirectSubClassesofEEG = DirectSubClassesofEEGNode.getFlattened();
+		//Creates Row Headers with Tabs as +
+		
 		AddtoCountTable(EEG,"");
 
 //		for(OWLClass s : DirectSubClassesofEEG)
 //		{
 //			s.toString();
 //			String temp = s.toString();
-//			System.out.println(temp);
+//			////System.out.println(temp);
 //			
 //			//All subclasses
 //
-////			NodeSet<OWLClass> AllSubClassesofthisClassNodeSet = countalgoObj.GetSubClassesofthisClass(s , false);
-////			Set<OWLClass> AllSubClassesofthisClass = AllSubClassesofthisClassNodeSet.getFlattened();
-////			if(AllSubClassesofthisClass!=null)
-////			{
-////				if(temp.length() > 40)
-////					CountTable[j][0] = temp.substring(43);
-////				j++;
-////				for(OWLClass subclass : AllSubClassesofthisClass)
-////				{
-////					temp = subclass.toString();
-////				if(temp.length() > 40)
-////					CountTable[j][0] = temp.substring(43);
-////				j++;
-////				}
-////			}
+//			NodeSet<OWLClass> AllSubClassesofthisClassNodeSet = countalgoObj.GetSubClassesofthisClass(s , false);
+//			Set<OWLClass> AllSubClassesofthisClass = AllSubClassesofthisClassNodeSet.getFlattened();
+//			if(AllSubClassesofthisClass!=null)
+//			{
+//				if(temp.length() > 40)
+//					CountTable[j][0] = temp.substring(43);
+//				j++;
+//				for(OWLClass subclass : AllSubClassesofthisClass)
+//				{
+//					temp = subclass.toString();
+//				if(temp.length() > 40)
+//					CountTable[j][0] = temp.substring(43);
+//				j++;
+//				}
+//			}
 //			
 //		}
+
 		
+//			Row Header Creation
+//			for(OWLClass s : AllSubClassesofEEG)
+//			{
+////				String temp = s.toString();
+//				String temp = s.getIRI().getFragment();
+////				//System.out.println(temp);
+////				if(temp.length() > 40)
+////					CountTable[j][0] = temp.substring(43);
+//				if(temp!=null)
+//					CountTable[j][0] = temp;
+//				j++;
+//			}
+
 		
 		/**********Calc col headers******************************/
 		Map<String,Integer> ColMap = new HashMap<String,Integer>();
@@ -104,11 +124,11 @@ public class CreateTable {
 			String temp = set.toString();
 			temp = temp.replaceAll("\\D+","");
 			int ColNum = Integer.parseInt(temp);
-			System.out.println("Colnum : "+ColNum);
+			////System.out.println("Colnum : "+ColNum);
 			ColMap.put(set.toString(), ColNum);
 		}
 		
-		System.out.println("ColMap values : " + ColMap.entrySet());
+		////System.out.println("ColMap values : " + ColMap.entrySet());
 	
 		final String[] Colheaders = new String[NUM_ANNOTATED_FILES+4];
 		Colheaders[0] = "Concepts";/*FIRST column represents row headers*/
@@ -120,7 +140,7 @@ public class CreateTable {
 		{
 			String s = null;
 			s = getKey(ColMap,i);
-			//System.out.println("String s value " + s);
+			//////System.out.println("String s value " + s);
 			if(s!=null)
 			{
 				Colheaders[i+4] = getKey(ColMap, i).substring(43);
@@ -129,7 +149,7 @@ public class CreateTable {
 			{
 				Colheaders[i+4] = "FILE N/A";
 			}
-		//	System.out.println(s);
+		//	////System.out.println(s);
 
 		}
 
@@ -138,70 +158,87 @@ public class CreateTable {
 
 		/*Create tables*/
 		/************* Calculate Row Index *********************************/
-		Map<String , Integer> RowNameIndex = new HashMap<String , Integer>();
-		int rowmapindex = 0;
-		for(OWLClass s : DirectSubClassesofEEG)
-		{
-			s.toString();
-			String temp = s.toString();
-			System.out.println(temp);
-			System.out.println("rowname putting in index" + s.toString());
-			temp = s.toString();
-			RowNameIndex.put(temp, rowmapindex) ;
-			rowmapindex++;
-			
-			//All subclasses
-			NodeSet<OWLClass> AllSubClassesofthisClassNodeSet = countalgoObj.GetSubClassesofthisClass(s , false);
-			Set<OWLClass> AllSubClassesofthisClass = AllSubClassesofthisClassNodeSet.getFlattened();
-			if(AllSubClassesofthisClass!=null)
-			{
-				for(OWLClass subclass : AllSubClassesofthisClass)
-				{
-					System.out.println("rowname putting in index" + subclass);
-					temp = subclass.toString();
-					RowNameIndex.put(temp, rowmapindex) ;
-					rowmapindex++;
-				}
-			}
-			
-		}
+//		LinkedHashMap<String , Integer> RowNameIndex = new LinkedHashMap<String , Integer>();
+		int rowmapindex = 1;
+//		for(OWLClass s : DirectSubClassesofEEG)
+//		{
+//			s.toString();
+//			String temp = s.toString();
+//			////System.out.println(temp);
+//			//////System.out.println("rowname putting in index" + s.toString());
+//			temp = s.toString();
+//			RowNameIndex.put(temp, rowmapindex) ;
+//			rowmapindex++;
+//			
+//			//All subclasses
+//			NodeSet<OWLClass> AllSubClassesofthisClassNodeSet = countalgoObj.GetSubClassesofthisClass(s , false);
+//			Set<OWLClass> AllSubClassesofthisClass = AllSubClassesofthisClassNodeSet.getFlattened();
+//			if(AllSubClassesofthisClass!=null)
+//			{
+//				for(OWLClass subclass : AllSubClassesofthisClass)
+//				{
+//					////System.out.println("rowname putting in index" + subclass);
+//					temp = subclass.toString();
+//					RowNameIndex.put(temp, rowmapindex) ;
+//					rowmapindex++;
+//				}
+//			}
+//			
+//		}
 
+//		// RowNameIndex creation
 //		for(OWLClass s : AllSubClassesofEEG)
 //		{
-//			RowNameIndex.put(s.toString(), rowmapindex) ;
+////			s.getIRI().getFragment();
+////			RowNameIndex.put(s.toString(), rowmapindex) ;
+//			RowNameIndex.put(s.getIRI().getFragment(), rowmapindex);
 //			rowmapindex++;
 //		}
-		
-		System.out.println(" RowNameIndex : " + RowNameIndex);
+//		
+		////System.out.println(" RowNameIndex : " + RowNameIndex);
 		
 
-		int RowIndex = 0;
+		int RowIndex = 1;
+
 		for(OWLClass rowname : AllSubClassesofEEG)
 		{
 			/************ get row Index based on Class name *********************/
-			System.out.println("rowname : " + rowname);
-			if(rowname != null)
+//			//System.out.println("rowname : " + rowname);
+			logger.debug("rowname : " + rowname.getIRI().getFragment());
+			String rowFragmentName = rowname.getIRI().getFragment();
+			if(rowname != null || !rowFragmentName.equals("Nothing"))
 			{
-				RowIndex = RowNameIndex.get(rowname.toString());
-			}
+//				RowIndex = RowNameIndex.get(rowname.toString());
+				//System.out.println("Finding the index for : " + rowname);
+				
+				if(RowNameIndex.containsKey(rowname.getIRI().getFragment()))
+				{
+					RowIndex = RowNameIndex.get(rowname.getIRI().getFragment());
+				
 			
+			logger.debug(rowname.getIRI().getFragment() + " has " + " RowIndex : " + RowIndex );
+	
 			/*Get Class instances for every EEG File*/
 			CountAlgoCall.CountIndsinFile(rowname.toString());
-			Map<OWLNamedIndividual, Integer> File_InstancesForthisClass = ObjCountAlgoCall.getIndividualsPerFile(); /*Map of Files vs instances for this class*/
+			Map<OWLNamedIndividual, Integer> File_InstancesForthisClass = CountAlgoCall.getIndividualsPerFile(); /*Map of Files vs instances for this class*/
+//			Map<OWLNamedIndividual, Integer> File_InstancesForthisClass = ObjCountAlgoCall.getIndividualsPerFile(); /*Map of Files vs instances for this class*/
 			
 			/*For every instances(filenames) load into array with corresponding colnames (filenames)*/
 			for(OWLNamedIndividual s : File_InstancesForthisClass.keySet())
 			{
 					String temp1 = s.toString();
-					System.out.println(temp1);
+					////System.out.println(temp1);
 					int ColIndex = ColMap.get(temp1);
-					System.out.println("ColIndex : "+ColIndex);
+					////System.out.println("ColIndex : "+ColIndex);
 					Integer temp = File_InstancesForthisClass.get(s);
 					String TableValue = temp.toString();
-					System.out.println(TableValue);
+					////System.out.println(TableValue);
 					CountTable[RowIndex][ColIndex+4] = TableValue;
-					System.out.println("Count Table Values : ");
-					System.out.println(CountTable[RowIndex][ColIndex]);
+					logger.debug("Value added to the table for file: "+ s.getIRI().getFragment() + " = " +  TableValue);
+					////System.out.println("Count Table Values : ");
+					////System.out.println(CountTable[RowIndex][ColIndex]);
+			}
+				}
 			}
 		}
 
@@ -216,12 +253,12 @@ public class CreateTable {
 			denominator = 0 ;
 			for(int col = 4; col <NUM_ANNOTATED_FILES+4;col++){
 				 String Stringvalue = CountTable[i][col].toString();
-		//		 System.out.println(Stringvalue);
+		//		 ////System.out.println(Stringvalue);
 				 
 				 Float temp = Float.parseFloat(Stringvalue);
 				 sum = sum + temp;
 				 
-				 System.out.println("File value :" + Colheaders[i+4].toString());
+				 ////System.out.println("File value :" + Colheaders[i+4].toString());
 				 if(Colheaders[col].toString().equals("FILE N/A") == false )
 				 {
 					 denominator++ ;
@@ -288,29 +325,36 @@ public class CreateTable {
 		GUI.setVisible(true);
 
 }
-	static void AddtoCountTable(OWLClass s , String NumofTabs )
+	static void AddtoCountTable(OWLClass s , String NumofTabs  )
 	{
-		if(s==null)
+		String fragmentName = s.getIRI().getFragment();
+		if(s==null || fragmentName.equals("Nothing"))
 		{
 			return;
 				
 		}
-		String temp = s.toString();
-		if(temp.length() > 40)
-		{
-			System.out.println("Adding : "+ temp.substring(43) +"to: " + j +"th index");
-			CountTable[j++][0] = NumofTabs + temp.substring(43);
-		}
+//		String temp = s.toString();
+//		if(temp.length() > 40)
+//		{
+//			////System.out.println("Adding : "+ temp.substring(43) +"to: " + j +"th index");
+//			CountTable[j++][0] = NumofTabs + temp.substring(43);
+//		}
+		
+		
+		RowNameIndex.put(fragmentName, rowNumberforHeaderNames);
+		CountTable[rowNumberforHeaderNames++][0] = NumofTabs + fragmentName;
+		//System.out.println("rowNumberforHeaderNames : "  + rowNumberforHeaderNames + " for Concept : " + s.getIRI().getFragment());
+		
 		NodeSet<OWLClass> AllSubClassesofthisClassNodeSet = countalgoObj.GetSubClassesofthisClass(s , true);
 		for(OWLClass s1 : AllSubClassesofthisClassNodeSet.getFlattened())
 		{
 
 			
-			AddtoCountTable(s1 , NumofTabs+"+");
+			AddtoCountTable(s1 , NumofTabs+"+" );
 //			 temp = s1.toString();
 //			if(temp.length() > 40)
 //			{
-//				System.out.println("Adding : "+ temp.substring(43) +"to: " + j +"th index");
+//				////System.out.println("Adding : "+ temp.substring(43) +"to: " + j +"th index");
 //				CountTable[j++][0] = temp.substring(43);
 //			}
 //			j++;

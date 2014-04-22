@@ -1,474 +1,693 @@
-2014-04-10 18:09:34,204 [INFO ] org.yaolabs.epilepsy.inferences.EEG  - Entering ConvertObjProptoVector ...
-2014-04-10 18:09:34,205 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - {Relaxed=org.yaolabs.epilepsy.inferences.Atomic_Vector@624e61b, Semiology=org.yaolabs.epilepsy.inferences.Atomic_Vector@58c7d7a9, Nothing=org.yaolabs.epilepsy.inferences.Atomic_Vector@f3004f59, Awake=org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, Adult=org.yaolabs.epilepsy.inferences.Atomic_Vector@c53ac331, Exams=org.yaolabs.epilepsy.inferences.Atomic_Vector@c5bd1825, eyes_closed=org.yaolabs.epilepsy.inferences.Atomic_Vector@1aefffcf, Attenuation=org.yaolabs.epilepsy.inferences.Atomic_Vector@225b0e11, Posterior=org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, Occipital=org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5}
-2014-04-10 18:09:34,205 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_107.txt>
-2014-04-10 18:09:34,205 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb]
-2014-04-10 18:09:34,205 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_10.txt>
-2014-04-10 18:09:34,205 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7]
-2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_104.txt>
-2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb]
-2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_0.txt>
-2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7]
-2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_102.txt>
-2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7]
-2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_103.txt>
-2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7]
-2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_105.txt>
-2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7]
-2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_100.txt>
-2014-04-10 18:09:34,206 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5]
-2014-04-10 18:09:34,207 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_1.txt>
-2014-04-10 18:09:34,207 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7]
-2014-04-10 18:09:34,207 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_106.txt>
-2014-04-10 18:09:34,207 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb]
-2014-04-10 18:09:34,207 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient : <http://www.owl-ontologies.com/unnamed.owl#EEG_101.txt>
-2014-04-10 18:09:34,207 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5]
-2014-04-10 18:09:34,207 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - [[org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb], [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb], [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7], [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7], [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7], [org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7], [org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5], [org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7], [org.yaolabs.epilepsy.inferences.Atomic_Vector@f53ca3d5], [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@9c0596fb], [org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7, org.yaolabs.epilepsy.inferences.Atomic_Vector@c54b72c7]]
-2014-04-10 18:09:34,208 [INFO ] org.yaolabs.epilepsy.inferences.EEG  - Exiting ConvertObjProptoVector ---
-2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
-2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
-2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
-2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
-2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
-2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
-2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
-2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
-2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
-2014-04-10 18:09:34,208 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Occipital
-2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 2.449489742783178
-2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
-2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.33333333333333337 with Concept:Alpha_Rhythms
-2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
-2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
-2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
-2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
-2014-04-10 18:09:34,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
-2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
-2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
-2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 2.449489742783178
-2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
-2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.20412414523193154 with Concept:Alpha_Variants_Rhythms
-2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.33333333333333337, 0.20412414523193154]
-2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_107.txt is :{Alpha_Rhythms=0.33333333333333337, Alpha_Variants_Rhythms=0.20412414523193154}
-2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
-2014-04-10 18:09:34,210 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_107.txt>
-2014-04-10 18:09:34,211 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Rhythms>
-2014-04-10 18:09:34,633 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:34,633 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
-2014-04-10 18:09:34,633 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_107.txt>
-2014-04-10 18:09:34,633 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
-2014-04-10 18:09:34,866 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:34,866 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:34,866 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:34,866 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:34,866 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:34,866 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:34,866 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:34,866 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Occipital
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 2.23606797749979
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.3651483716701107 with Concept:Alpha_Rhythms
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
-2014-04-10 18:09:35,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
-2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
-2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
-2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
-2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 2.23606797749979
-2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
-2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.22360679774997896 with Concept:Alpha_Variants_Rhythms
-2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.3651483716701107, 0.22360679774997896]
-2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_104.txt is :{Alpha_Rhythms=0.3651483716701107, Alpha_Variants_Rhythms=0.22360679774997896}
-2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
-2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_104.txt>
-2014-04-10 18:09:35,057 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Rhythms>
-2014-04-10 18:09:35,215 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,215 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
-2014-04-10 18:09:35,215 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_104.txt>
-2014-04-10 18:09:35,215 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
-2014-04-10 18:09:35,333 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,333 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,333 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,333 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,333 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,333 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,333 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,333 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,431 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
-2014-04-10 18:09:35,431 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:35,431 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:35,431 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
-2014-04-10 18:09:35,431 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
-2014-04-10 18:09:35,431 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 2.0
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.20412414523193154 with Concept:Alpha_Rhythms
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 2.0
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.25 with Concept:Alpha_Variants_Rhythms
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.25, 0.20412414523193154]
-2014-04-10 18:09:35,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_10.txt is :{Alpha_Rhythms=0.20412414523193154, Alpha_Variants_Rhythms=0.25}
-2014-04-10 18:09:35,433 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,433 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
-2014-04-10 18:09:35,433 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_10.txt>
-2014-04-10 18:09:35,433 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
-2014-04-10 18:09:35,522 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,522 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
-2014-04-10 18:09:35,522 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_10.txt>
-2014-04-10 18:09:35,522 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Rhythms>
-2014-04-10 18:09:35,594 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,594 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,594 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,594 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,594 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,594 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,594 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,594 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.4142135623730951
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.0 with Concept:Alpha_Rhythms
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.4142135623730951
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.0 with Concept:Alpha_Variants_Rhythms
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.0, 0.0]
-2014-04-10 18:09:35,689 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_0.txt is :{Alpha_Rhythms=0.0, Alpha_Variants_Rhythms=0.0}
-2014-04-10 18:09:35,690 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,690 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
-2014-04-10 18:09:35,690 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_0.txt>
-2014-04-10 18:09:35,690 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
-2014-04-10 18:09:35,770 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,770 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
-2014-04-10 18:09:35,770 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_0.txt>
-2014-04-10 18:09:35,771 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
-2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
-2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:35,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.0
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.0 with Concept:Alpha_Rhythms
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.0
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.0 with Concept:Alpha_Variants_Rhythms
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.0, 0.0]
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_103.txt is :{Alpha_Rhythms=0.0, Alpha_Variants_Rhythms=0.0}
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
-2014-04-10 18:09:35,854 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_103.txt>
-2014-04-10 18:09:35,855 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
-2014-04-10 18:09:35,937 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,937 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
-2014-04-10 18:09:35,937 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_103.txt>
-2014-04-10 18:09:35,937 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
-2014-04-10 18:09:35,995 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,995 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,995 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.4142135623730951
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.2886751345948129 with Concept:Alpha_Rhythms
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.4142135623730951
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
-2014-04-10 18:09:35,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.35355339059327373 with Concept:Alpha_Variants_Rhythms
-2014-04-10 18:09:35,997 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.35355339059327373, 0.2886751345948129]
-2014-04-10 18:09:35,997 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_102.txt is :{Alpha_Rhythms=0.2886751345948129, Alpha_Variants_Rhythms=0.35355339059327373}
-2014-04-10 18:09:35,997 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:35,997 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
-2014-04-10 18:09:35,997 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_102.txt>
-2014-04-10 18:09:35,997 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
-2014-04-10 18:09:36,048 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,048 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
-2014-04-10 18:09:36,048 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_102.txt>
-2014-04-10 18:09:36,048 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Rhythms>
-2014-04-10 18:09:36,105 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,105 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,105 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,105 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,105 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,105 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,105 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,105 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Occipital
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.0
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.4082482904638631 with Concept:Alpha_Rhythms
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.0
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.0 with Concept:Alpha_Variants_Rhythms
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.4082482904638631, 0.0]
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_100.txt is :{Alpha_Rhythms=0.4082482904638631, Alpha_Variants_Rhythms=0.0}
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
-2014-04-10 18:09:36,161 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_100.txt>
-2014-04-10 18:09:36,162 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Rhythms>
-2014-04-10 18:09:36,227 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,227 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
-2014-04-10 18:09:36,227 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_100.txt>
-2014-04-10 18:09:36,227 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
-2014-04-10 18:09:36,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
-2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
-2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
-2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
-2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
-2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:36,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.7320508075688772
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.23570226039551587 with Concept:Alpha_Rhythms
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.7320508075688772
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.2886751345948129 with Concept:Alpha_Variants_Rhythms
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.2886751345948129, 0.23570226039551587]
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_105.txt is :{Alpha_Rhythms=0.23570226039551587, Alpha_Variants_Rhythms=0.2886751345948129}
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_105.txt>
-2014-04-10 18:09:36,340 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
-2014-04-10 18:09:36,391 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,391 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
-2014-04-10 18:09:36,391 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_105.txt>
-2014-04-10 18:09:36,391 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Rhythms>
-2014-04-10 18:09:36,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
-2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
-2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
-2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
-2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
-2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Occipital
-2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.0
-2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
-2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.4082482904638631 with Concept:Alpha_Rhythms
-2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
-2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
-2014-04-10 18:09:36,617 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Occipital
-2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.0
-2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
-2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.0 with Concept:Alpha_Variants_Rhythms
-2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.4082482904638631, 0.0]
-2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_101.txt is :{Alpha_Rhythms=0.4082482904638631, Alpha_Variants_Rhythms=0.0}
-2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
-2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_101.txt>
-2014-04-10 18:09:36,618 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Rhythms>
-2014-04-10 18:09:36,674 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,674 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
-2014-04-10 18:09:36,674 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_101.txt>
-2014-04-10 18:09:36,674 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
-2014-04-10 18:09:36,732 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,732 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,732 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,732 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,732 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,732 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,732 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,732 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.4142135623730951
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.2886751345948129 with Concept:Alpha_Rhythms
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:36,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Posterior
-2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Common Atomic Vectors : Posterior
-2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.4142135623730951
-2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
-2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.35355339059327373 with Concept:Alpha_Variants_Rhythms
-2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.35355339059327373, 0.2886751345948129]
-2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_106.txt is :{Alpha_Rhythms=0.2886751345948129, Alpha_Variants_Rhythms=0.35355339059327373}
-2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
-2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_106.txt>
-2014-04-10 18:09:36,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
-2014-04-10 18:09:36,852 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,852 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
-2014-04-10 18:09:36,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_106.txt>
-2014-04-10 18:09:36,853 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Rhythms>
-2014-04-10 18:09:36,970 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,970 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,970 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,970 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,970 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,970 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,970 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:36,970 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Relaxed
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Attenuation
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Semiology
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Occipital
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.4142135623730951
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.449489742783178
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.0 with Concept:Alpha_Rhythms
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Posterior
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Adult
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : Exams
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept contains : eyes_closed
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - PatientVectorMap contains : Awake
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Magnitude of Patient Vector: 1.4142135623730951
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Magnitude of this Concept Vector  2.0
-2014-04-10 18:09:37,028 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Cosine Similarity is : 0.0 with Concept:Alpha_Variants_Rhythms
-2014-04-10 18:09:37,029 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descending Sorted CosineSimilarityList is : [0.0, 0.0]
-2014-04-10 18:09:37,029 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - CSR values for Patient : EEG_1.txt is :{Alpha_Rhythms=0.0, Alpha_Variants_Rhythms=0.0}
-2014-04-10 18:09:37,029 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:37,029 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_1>
-2014-04-10 18:09:37,029 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_1.txt>
-2014-04-10 18:09:37,029 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
-2014-04-10 18:09:37,073 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:37,073 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - thisObjectProperty : <http://www.owl-ontologies.com/unnamed.owl#hasNormalPattern_2>
-2014-04-10 18:09:37,073 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Patient Under Consideration : <http://www.owl-ontologies.com/unnamed.owl#EEG_1.txt>
-2014-04-10 18:09:37,073 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  -  Matching Vector : <http://www.owl-ontologies.com/unnamed.owl#Alpha_Variants_Rhythms>
-2014-04-10 18:09:37,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:37,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:37,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:37,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:37,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:37,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:37,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
-2014-04-10 18:09:37,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Entered Top 10 Property Assignment ... 
+2014-04-16 01:53:20,448 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Adolescent__12_-_18_years_
+2014-04-16 01:53:25,889 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Adolescent__12_-_18_years_ has  RowIndex : 4
+2014-04-16 01:53:27,045 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_111.txt = 1
+2014-04-16 01:53:27,045 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_110.txt = 1
+2014-04-16 01:53:27,046 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Isolated
+2014-04-16 01:53:27,046 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Isolated has  RowIndex : 208
+2014-04-16 01:53:27,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Intermittent_Slow_Activity
+2014-04-16 01:53:27,553 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Intermittent_Slow_Activity has  RowIndex : 65
+2014-04-16 01:53:32,580 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Multiple_Spike_and_Slow_Wave_Complex
+2014-04-16 01:53:32,628 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Multiple_Spike_and_Slow_Wave_Complex has  RowIndex : 47
+2014-04-16 01:53:32,981 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Background_Activity
+2014-04-16 01:53:32,981 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Background_Activity has  RowIndex : 71
+2014-04-16 01:53:33,303 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 3
+2014-04-16 01:53:33,303 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 01:53:33,303 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_119.txt = 1
+2014-04-16 01:53:33,303 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_102.txt = 1
+2014-04-16 01:53:33,303 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_105.txt = 1
+2014-04-16 01:53:33,303 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_112.txt = 2
+2014-04-16 01:53:33,303 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_113.txt = 2
+2014-04-16 01:53:33,304 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 7
+2014-04-16 01:53:33,304 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_120.txt = 1
+2014-04-16 01:53:33,304 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_12.txt = 1
+2014-04-16 01:53:33,304 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_104.txt = 2
+2014-04-16 01:53:33,304 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 1
+2014-04-16 01:53:33,304 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_122.txt = 2
+2014-04-16 01:53:33,304 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_109.txt = 1
+2014-04-16 01:53:33,304 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_125.txt = 1
+2014-04-16 01:53:33,304 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 1
+2014-04-16 01:53:33,304 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_124.txt = 6
+2014-04-16 01:53:33,304 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_116.txt = 1
+2014-04-16 01:53:33,304 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_106.txt = 1
+2014-04-16 01:53:33,304 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Posterior_Slow_Wave_of_Youth
+2014-04-16 01:53:33,304 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Posterior_Slow_Wave_of_Youth has  RowIndex : 72
+2014-04-16 01:53:33,570 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Lateralized
+2014-04-16 01:53:33,570 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Lateralized has  RowIndex : 123
+2014-04-16 01:53:38,815 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_12.txt = 1
+2014-04-16 01:53:38,912 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_124.txt = 1
+2014-04-16 01:53:38,912 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_110.txt = 1
+2014-04-16 01:53:38,912 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Low_Voltage_Fast_Activity
+2014-04-16 01:53:38,912 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Low_Voltage_Fast_Activity has  RowIndex : 73
+2014-04-16 01:53:39,142 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Positive
+2014-04-16 01:53:39,142 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Positive has  RowIndex : 248
+2014-04-16 01:53:39,359 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Trace_Alternant
+2014-04-16 01:53:39,359 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Trace_Alternant has  RowIndex : 78
+2014-04-16 01:53:45,424 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Left_Posterior
+2014-04-16 01:53:45,541 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Left_Posterior has  RowIndex : 136
+2014-04-16 01:53:45,957 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 1
+2014-04-16 01:53:45,958 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 1
+2014-04-16 01:53:45,958 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_105.txt = 1
+2014-04-16 01:53:45,958 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 1
+2014-04-16 01:53:45,958 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Unilateral
+2014-04-16 01:53:45,958 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Unilateral has  RowIndex : 125
+2014-04-16 01:53:46,291 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Wicket_Spikes
+2014-04-16 01:53:46,291 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Wicket_Spikes has  RowIndex : 79
+2014-04-16 01:53:46,621 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Short_Wave
+2014-04-16 01:53:46,621 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Short_Wave has  RowIndex : 227
+2014-04-16 01:53:51,521 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Confused
+2014-04-16 01:53:51,619 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Confused has  RowIndex : 168
+2014-04-16 01:53:51,966 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Rhythm_of_Alpha_Frequency
+2014-04-16 01:53:51,966 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Rhythm_of_Alpha_Frequency has  RowIndex : 90
+2014-04-16 01:53:52,316 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Spread_Termination
+2014-04-16 01:53:52,316 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Spread_Termination has  RowIndex : 112
+2014-04-16 01:53:57,409 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Elderly_____60_or___65_years_
+2014-04-16 01:53:57,494 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Elderly_____60_or___65_years_ has  RowIndex : 7
+2014-04-16 01:53:59,149 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Delta_Rhythm
+2014-04-16 01:53:59,149 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Delta_Rhythm has  RowIndex : 92
+2014-04-16 01:54:00,135 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_110.txt = 1
+2014-04-16 01:54:00,136 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Hypsarrhythmia
+2014-04-16 01:54:00,136 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Hypsarrhythmia has  RowIndex : 94
+2014-04-16 01:54:26,432 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_107.txt = 1
+2014-04-16 01:54:26,621 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_104.txt = 1
+2014-04-16 01:54:26,621 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 01:54:26,621 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_103.txt = 1
+2014-04-16 01:54:26,743 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_102.txt = 1
+2014-04-16 01:54:26,743 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_124.txt = 1
+2014-04-16 01:54:26,743 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_117.txt = 1
+2014-04-16 01:54:26,743 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 1
+2014-04-16 01:54:26,743 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Equipotential
+2014-04-16 01:54:26,743 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Equipotential has  RowIndex : 245
+2014-04-16 01:54:40,091 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Rhythm_Period
+2014-04-16 01:54:40,155 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Rhythm_Period has  RowIndex : 207
+2014-04-16 01:54:42,458 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 2
+2014-04-16 01:54:42,458 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_107.txt = 2
+2014-04-16 01:54:42,458 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_105.txt = 1
+2014-04-16 01:54:42,459 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_117.txt = 3
+2014-04-16 01:54:42,459 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_112.txt = 1
+2014-04-16 01:54:42,459 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_113.txt = 1
+2014-04-16 01:54:42,459 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_104.txt = 2
+2014-04-16 01:54:42,459 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 2
+2014-04-16 01:54:42,459 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_123.txt = 1
+2014-04-16 01:54:42,459 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_108.txt = 2
+2014-04-16 01:54:42,459 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_109.txt = 1
+2014-04-16 01:54:42,459 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 2
+2014-04-16 01:54:42,459 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_124.txt = 1
+2014-04-16 01:54:42,459 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_110.txt = 2
+2014-04-16 01:54:42,459 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_101.txt = 1
+2014-04-16 01:54:42,459 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_106.txt = 1
+2014-04-16 01:54:42,459 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Peri-Ictal
+2014-04-16 01:54:42,459 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Peri-Ictal has  RowIndex : 192
+2014-04-16 01:54:49,967 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Burst
+2014-04-16 01:54:50,100 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Burst has  RowIndex : 59
+2014-04-16 01:54:58,765 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 1
+2014-04-16 01:54:58,878 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 1
+2014-04-16 01:54:58,878 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Conscious
+2014-04-16 01:54:58,878 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Conscious has  RowIndex : 147
+2014-04-16 01:55:05,183 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : _3-Hz_Spike_and_Slow_Wave_Complex
+2014-04-16 01:55:05,245 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - _3-Hz_Spike_and_Slow_Wave_Complex has  RowIndex : 44
+2014-04-16 01:55:05,468 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Parietal
+2014-04-16 01:55:05,469 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Parietal has  RowIndex : 139
+2014-04-16 01:55:05,753 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_124.txt = 1
+2014-04-16 01:55:05,778 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_116.txt = 1
+2014-04-16 01:55:05,779 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 1
+2014-04-16 01:55:05,779 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Clinical
+2014-04-16 01:55:05,779 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Clinical has  RowIndex : 15
+2014-04-16 01:55:15,490 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Stereospiked_Focal_Spike
+2014-04-16 01:55:15,590 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Stereospiked_Focal_Spike has  RowIndex : 35
+2014-04-16 01:55:15,812 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Invariant_Burst_Suppression
+2014-04-16 01:55:15,812 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Invariant_Burst_Suppression has  RowIndex : 178
+2014-04-16 01:55:16,031 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Repetitive
+2014-04-16 01:55:16,031 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Repetitive has  RowIndex : 215
+2014-04-16 01:55:16,251 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Irregular
+2014-04-16 01:55:16,251 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Irregular has  RowIndex : 216
+2014-04-16 01:55:22,792 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 01:55:22,812 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_105.txt = 1
+2014-04-16 01:55:22,812 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_106.txt = 1
+2014-04-16 01:55:22,812 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Fixation-OffSensitivity
+2014-04-16 01:55:22,812 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Fixation-OffSensitivity has  RowIndex : 182
+2014-04-16 01:55:23,030 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Periodic_Laterized_Epileptiform_Discharges__PLED_
+2014-04-16 01:55:23,030 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Periodic_Laterized_Epileptiform_Discharges__PLED_ has  RowIndex : 76
+2014-04-16 01:55:23,249 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Frontal_Intermittent_Rythmic_Delta_Activity__FIRDA_
+2014-04-16 01:55:23,249 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Frontal_Intermittent_Rythmic_Delta_Activity__FIRDA_ has  RowIndex : 77
+2014-04-16 01:55:23,539 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Concept
+2014-04-16 01:55:23,539 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Concept has  RowIndex : 19
+2014-04-16 01:55:30,531 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Aperiodic
+2014-04-16 01:55:30,635 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Aperiodic has  RowIndex : 223
+2014-04-16 01:55:30,866 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Non-REM_Sleep
+2014-04-16 01:55:30,867 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Non-REM_Sleep has  RowIndex : 152
+2014-04-16 01:55:31,090 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Female
+2014-04-16 01:55:31,090 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Female has  RowIndex : 12
+2014-04-16 01:55:31,402 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_12.txt = 1
+2014-04-16 01:55:31,402 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_125.txt = 1
+2014-04-16 01:55:31,403 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_117.txt = 1
+2014-04-16 01:55:31,403 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Saw-tooth_Wave
+2014-04-16 01:55:31,403 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Saw-tooth_Wave has  RowIndex : 51
+2014-04-16 01:55:42,261 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Asynchrony
+2014-04-16 01:55:42,458 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Asynchrony has  RowIndex : 210
+2014-04-16 01:55:42,734 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_104.txt = 1
+2014-04-16 01:55:42,756 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_103.txt = 1
+2014-04-16 01:55:42,756 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Continuous_Activity
+2014-04-16 01:55:42,756 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Continuous_Activity has  RowIndex : 230
+2014-04-16 01:55:43,030 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_112.txt = 1
+2014-04-16 01:55:43,030 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Focal_Spike
+2014-04-16 01:55:43,030 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Focal_Spike has  RowIndex : 32
+2014-04-16 01:55:47,828 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : _250uV
+2014-04-16 01:55:47,936 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - _250uV has  RowIndex : 244
+2014-04-16 01:55:52,005 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Anesthesia
+2014-04-16 01:55:52,005 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Anesthesia has  RowIndex : 171
+2014-04-16 01:55:52,228 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Polyphasic_Wave
+2014-04-16 01:55:52,228 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Polyphasic_Wave has  RowIndex : 52
+2014-04-16 01:55:52,454 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Right_Posterior
+2014-04-16 01:55:52,454 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Right_Posterior has  RowIndex : 134
+2014-04-16 01:55:52,737 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 1
+2014-04-16 01:55:52,737 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_104.txt = 2
+2014-04-16 01:55:52,737 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_105.txt = 1
+2014-04-16 01:55:52,737 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Slow_Wave
+2014-04-16 01:55:52,737 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Slow_Wave has  RowIndex : 235
+2014-04-16 01:56:00,083 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 1
+2014-04-16 01:56:00,203 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Saw_Toothed_Bursts
+2014-04-16 01:56:00,271 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Saw_Toothed_Bursts has  RowIndex : 96
+2014-04-16 01:56:00,491 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Stage2_Sleep
+2014-04-16 01:56:00,491 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Stage2_Sleep has  RowIndex : 157
+2014-04-16 01:56:00,873 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Sleep
+2014-04-16 01:56:00,873 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Sleep has  RowIndex : 183
+2014-04-16 01:56:01,144 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_107.txt = 2
+2014-04-16 01:56:01,144 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 1
+2014-04-16 01:56:01,144 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_119.txt = 1
+2014-04-16 01:56:01,144 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_102.txt = 1
+2014-04-16 01:56:01,144 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_117.txt = 2
+2014-04-16 01:56:01,144 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 4
+2014-04-16 01:56:01,144 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_113.txt = 1
+2014-04-16 01:56:01,144 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 1
+2014-04-16 01:56:01,144 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_108.txt = 1
+2014-04-16 01:56:01,144 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_122.txt = 1
+2014-04-16 01:56:01,144 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_109.txt = 1
+2014-04-16 01:56:01,181 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 2
+2014-04-16 01:56:01,181 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_124.txt = 1
+2014-04-16 01:56:01,181 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_116.txt = 1
+2014-04-16 01:56:01,181 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_106.txt = 2
+2014-04-16 01:56:01,181 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : NonConscious
+2014-04-16 01:56:01,181 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - NonConscious has  RowIndex : 170
+2014-04-16 01:56:11,966 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Atypical
+2014-04-16 01:56:11,992 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Atypical has  RowIndex : 224
+2014-04-16 01:56:12,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Brush
+2014-04-16 01:56:12,209 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Brush has  RowIndex : 103
+2014-04-16 01:56:14,564 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Preterm
+2014-04-16 01:56:14,564 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Preterm has  RowIndex : 3
+2014-04-16 01:56:14,785 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Semiology
+2014-04-16 01:56:14,785 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Semiology has  RowIndex : 20
+2014-04-16 01:56:23,572 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Trace_Continue
+2014-04-16 01:56:23,670 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Trace_Continue has  RowIndex : 63
+2014-04-16 01:56:23,888 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Anatomy
+2014-04-16 01:56:23,888 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Anatomy has  RowIndex : 108
+2014-04-16 01:56:24,101 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Dishcarge
+2014-04-16 01:56:24,101 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Dishcarge has  RowIndex : 25
+2014-04-16 01:56:24,375 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_123.txt = 1
+2014-04-16 01:56:24,375 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 2
+2014-04-16 01:56:24,375 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 4
+2014-04-16 01:56:24,375 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_125.txt = 2
+2014-04-16 01:56:24,375 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 1
+2014-04-16 01:56:24,375 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_102.txt = 1
+2014-04-16 01:56:24,376 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_117.txt = 4
+2014-04-16 01:56:24,376 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_113.txt = 1
+2014-04-16 01:56:24,376 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 4
+2014-04-16 01:56:24,376 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Duration
+2014-04-16 01:56:24,376 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Duration has  RowIndex : 226
+2014-04-16 01:56:30,306 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Location_of_Onset
+2014-04-16 01:56:30,426 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Location_of_Onset has  RowIndex : 111
+2014-04-16 01:56:30,650 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Other
+2014-04-16 01:56:30,650 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Other has  RowIndex : 184
+2014-04-16 01:56:31,090 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 01:56:31,090 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_109.txt = 1
+2014-04-16 01:56:31,090 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 1
+2014-04-16 01:56:31,090 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_106.txt = 1
+2014-04-16 01:56:31,137 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Multifocal_Spikes
+2014-04-16 01:56:31,137 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Multifocal_Spikes has  RowIndex : 34
+2014-04-16 01:56:31,360 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Mu_Rhythm
+2014-04-16 01:56:31,360 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Mu_Rhythm has  RowIndex : 68
+2014-04-16 01:56:35,214 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : _6-Hz_Spike_and_Slow_Wave_Complex
+2014-04-16 01:56:35,214 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - _6-Hz_Spike_and_Slow_Wave_Complex has  RowIndex : 46
+2014-04-16 01:56:35,434 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Rolandic_Spikes
+2014-04-16 01:56:35,434 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Rolandic_Spikes has  RowIndex : 38
+2014-04-16 01:56:35,659 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : negative_slow_wave_followed_by_a_positive_small_wave
+2014-04-16 01:56:35,744 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - negative_slow_wave_followed_by_a_positive_small_wave has  RowIndex : 24
+2014-04-16 01:56:35,969 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Quasiperiodic
+2014-04-16 01:56:36,062 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Quasiperiodic has  RowIndex : 221
+2014-04-16 01:56:39,994 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Alpha_Band__Frequency_8-13Hz_
+2014-04-16 01:56:39,995 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Alpha_Band__Frequency_8-13Hz_ has  RowIndex : 205
+2014-04-16 01:56:40,270 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_111.txt = 2
+2014-04-16 01:56:40,270 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_110.txt = 2
+2014-04-16 01:56:40,270 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Delta_Brushes
+2014-04-16 01:56:40,270 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Delta_Brushes has  RowIndex : 105
+2014-04-16 01:56:40,488 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Occipital_Intermittent_Rhythmic_Delta_Activity
+2014-04-16 01:56:40,488 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Occipital_Intermittent_Rhythmic_Delta_Activity has  RowIndex : 81
+2014-04-16 01:56:40,722 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Hyperventilation
+2014-04-16 01:56:40,722 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Hyperventilation has  RowIndex : 180
+2014-04-16 01:56:41,009 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_107.txt = 1
+2014-04-16 01:56:41,077 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 1
+2014-04-16 01:56:41,078 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 01:56:41,078 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_105.txt = 2
+2014-04-16 01:56:41,078 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_117.txt = 1
+2014-04-16 01:56:41,078 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_12.txt = 1
+2014-04-16 01:56:41,078 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 2
+2014-04-16 01:56:41,078 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_123.txt = 1
+2014-04-16 01:56:41,078 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_111.txt = 1
+2014-04-16 01:56:41,078 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_122.txt = 1
+2014-04-16 01:56:41,078 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_109.txt = 1
+2014-04-16 01:56:41,078 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 1
+2014-04-16 01:56:41,078 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_110.txt = 1
+2014-04-16 01:56:41,151 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_106.txt = 1
+2014-04-16 01:56:41,151 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Photoparoxysmal_Response
+2014-04-16 01:56:41,151 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Photoparoxysmal_Response has  RowIndex : 84
+2014-04-16 01:56:45,215 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Periodic
+2014-04-16 01:56:45,215 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Periodic has  RowIndex : 211
+2014-04-16 01:56:45,487 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_124.txt = 1
+2014-04-16 01:56:45,488 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Fast_Generalized_Polyspike_Wave
+2014-04-16 01:56:45,488 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Fast_Generalized_Polyspike_Wave has  RowIndex : 27
+2014-04-16 01:56:45,711 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Continuous_slow_activity
+2014-04-16 01:56:45,711 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Continuous_slow_activity has  RowIndex : 91
+2014-04-16 01:56:45,930 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Arrythmic_Activity
+2014-04-16 01:56:45,930 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Arrythmic_Activity has  RowIndex : 217
+2014-04-16 01:56:54,500 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Monophasic_Wave
+2014-04-16 01:56:54,672 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Monophasic_Wave has  RowIndex : 54
+2014-04-16 01:56:54,889 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Normal_Types
+2014-04-16 01:56:54,889 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Normal_Types has  RowIndex : 50
+2014-04-16 01:56:55,099 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Sleep_Spindle
+2014-04-16 01:56:55,099 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Sleep_Spindle has  RowIndex : 61
+2014-04-16 01:56:55,366 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_12.txt = 1
+2014-04-16 01:56:55,366 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 2
+2014-04-16 01:56:55,366 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_122.txt = 2
+2014-04-16 01:56:55,366 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 01:56:55,366 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_125.txt = 1
+2014-04-16 01:56:55,366 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_116.txt = 1
+2014-04-16 01:56:55,366 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Frontal
+2014-04-16 01:56:55,366 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Frontal has  RowIndex : 141
+2014-04-16 01:57:06,154 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_107.txt = 1
+2014-04-16 01:57:06,261 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_104.txt = 1
+2014-04-16 01:57:06,261 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 1
+2014-04-16 01:57:06,261 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_102.txt = 1
+2014-04-16 01:57:06,261 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_110.txt = 2
+2014-04-16 01:57:06,261 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_113.txt = 1
+2014-04-16 01:57:06,261 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 5
+2014-04-16 01:57:06,261 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : State_of_Consciousness_Functional_Status
+2014-04-16 01:57:06,262 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - State_of_Consciousness_Functional_Status has  RowIndex : 145
+2014-04-16 01:57:06,485 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Atypical_spike_slow_wave_complex
+2014-04-16 01:57:06,640 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Atypical_spike_slow_wave_complex has  RowIndex : 98
+2014-04-16 01:57:06,861 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Beta_Band__Frequency_14-40Hz_
+2014-04-16 01:57:06,861 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Beta_Band__Frequency_14-40Hz_ has  RowIndex : 206
+2014-04-16 01:57:07,134 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_107.txt = 1
+2014-04-16 01:57:07,134 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_111.txt = 1
+2014-04-16 01:57:07,134 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_108.txt = 2
+2014-04-16 01:57:07,134 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 01:57:07,134 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_103.txt = 1
+2014-04-16 01:57:07,134 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_117.txt = 2
+2014-04-16 01:57:07,134 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_110.txt = 1
+2014-04-16 01:57:07,134 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_101.txt = 1
+2014-04-16 01:57:07,134 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Arch-shaped_waves
+2014-04-16 01:57:07,134 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Arch-shaped_waves has  RowIndex : 23
+2014-04-16 01:57:20,244 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Needs_Concept
+2014-04-16 01:57:20,370 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Needs_Concept has  RowIndex : 14
+2014-04-16 01:57:20,650 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 5
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_107.txt = 2
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 15
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_119.txt = 5
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_102.txt = 2
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_105.txt = 2
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_117.txt = 6
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 2
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_120.txt = 14
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_12.txt = 2
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_123.txt = 4
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_104.txt = 12
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 2
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_108.txt = 1
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_122.txt = 2
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_109.txt = 2
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_125.txt = 7
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 10
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_103.txt = 3
+2014-04-16 01:57:20,651 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_124.txt = 10
+2014-04-16 01:57:20,762 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_116.txt = 38
+2014-04-16 01:57:20,762 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_106.txt = 1
+2014-04-16 01:57:20,762 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Sex
+2014-04-16 01:57:20,762 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Sex has  RowIndex : 10
+2014-04-16 01:57:20,980 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Light_Sleep
+2014-04-16 01:57:20,980 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Light_Sleep has  RowIndex : 156
+2014-04-16 01:57:21,197 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Descriptors
+2014-04-16 01:57:21,197 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Descriptors has  RowIndex : 233
+2014-04-16 01:57:21,415 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Neonate_____44_weeks_gestation_
+2014-04-16 01:57:21,415 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Neonate_____44_weeks_gestation_ has  RowIndex : 8
+2014-04-16 01:57:31,112 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Stereotyped_Multifocal_Spikes
+2014-04-16 01:57:31,273 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Stereotyped_Multifocal_Spikes has  RowIndex : 33
+2014-04-16 01:57:31,499 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Rhythm_or_Temporal_Theta_Burst_of_Drowsiness
+2014-04-16 01:57:31,499 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Rhythm_or_Temporal_Theta_Burst_of_Drowsiness has  RowIndex : 66
+2014-04-16 01:57:31,721 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Injection_of_Convulsant_Drug
+2014-04-16 01:57:31,721 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Injection_of_Convulsant_Drug has  RowIndex : 186
+2014-04-16 01:57:31,999 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_120.txt = 3
+2014-04-16 01:57:31,999 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Symmetry
+2014-04-16 01:57:31,999 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Symmetry has  RowIndex : 118
+2014-04-16 01:57:35,845 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_12.txt = 1
+2014-04-16 01:57:35,845 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 1
+2014-04-16 01:57:35,845 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_123.txt = 1
+2014-04-16 01:57:35,845 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_108.txt = 1
+2014-04-16 01:57:35,845 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_111.txt = 1
+2014-04-16 01:57:35,845 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_122.txt = 1
+2014-04-16 01:57:35,845 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_119.txt = 1
+2014-04-16 01:57:35,845 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_103.txt = 2
+2014-04-16 01:57:35,845 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_105.txt = 1
+2014-04-16 01:57:35,845 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_117.txt = 2
+2014-04-16 01:57:35,845 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Asymmetry
+2014-04-16 01:57:35,845 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Asymmetry has  RowIndex : 119
+2014-04-16 01:57:36,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 2
+2014-04-16 01:57:36,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_125.txt = 1
+2014-04-16 01:57:36,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_119.txt = 3
+2014-04-16 01:57:36,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Clinical_History
+2014-04-16 01:57:36,119 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Clinical_History has  RowIndex : 16
+2014-04-16 01:57:36,457 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Triphasic_Wave
+2014-04-16 01:57:36,540 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Triphasic_Wave has  RowIndex : 74
+2014-04-16 01:57:36,761 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Semiperiodical
+2014-04-16 01:57:36,761 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Semiperiodical has  RowIndex : 218
+2014-04-16 01:57:40,442 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Normal_Burst_Types
+2014-04-16 01:57:40,607 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Normal_Burst_Types has  RowIndex : 60
+2014-04-16 01:57:40,827 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Activation_Procedures
+2014-04-16 01:57:40,827 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Activation_Procedures has  RowIndex : 179
+2014-04-16 01:57:41,097 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_104.txt = 2
+2014-04-16 01:57:41,097 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_122.txt = 1
+2014-04-16 01:57:41,097 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 1
+2014-04-16 01:57:41,097 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Location
+2014-04-16 01:57:41,097 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Location has  RowIndex : 128
+2014-04-16 01:57:41,314 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Deep_Sleep
+2014-04-16 01:57:41,314 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Deep_Sleep has  RowIndex : 153
+2014-04-16 01:57:53,407 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : _14-6Hz_Positive_Spikes
+2014-04-16 01:57:53,608 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - _14-6Hz_Positive_Spikes has  RowIndex : 86
+2014-04-16 01:57:53,829 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Photoparoxysmal_Fast
+2014-04-16 01:57:53,829 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Photoparoxysmal_Fast has  RowIndex : 87
+2014-04-16 01:57:54,048 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : _14-6Hz_Positive_Burst
+2014-04-16 01:57:54,048 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - _14-6Hz_Positive_Burst has  RowIndex : 89
+2014-04-16 01:57:54,267 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Nothing
+2014-04-16 01:57:54,267 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Benign_and_Epileptiform_Discharges_of_Childhood
+2014-04-16 01:57:54,268 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Benign_and_Epileptiform_Discharges_of_Childhood has  RowIndex : 39
+2014-04-16 02:02:15,788 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Sine_Wave
+2014-04-16 02:02:16,953 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Sine_Wave has  RowIndex : 55
+2014-04-16 02:11:45,745 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Intermittent
+2014-04-16 02:11:46,004 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Intermittent has  RowIndex : 221
+2014-04-16 02:12:37,090 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_108.txt = 1
+2014-04-16 02:12:37,164 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_105.txt = 1
+2014-04-16 02:12:37,164 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_110.txt = 2
+2014-04-16 02:12:37,164 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_120.txt = 1
+2014-04-16 02:12:37,164 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Demographics
+2014-04-16 02:12:37,164 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Demographics has  RowIndex : 1
+2014-04-16 02:13:24,126 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 3
+2014-04-16 02:13:24,321 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_117.txt = 1
+2014-04-16 02:13:24,321 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Ictal_Propagation
+2014-04-16 02:13:24,321 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Ictal_Propagation has  RowIndex : 109
+2014-04-16 02:13:27,122 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Frequency
+2014-04-16 02:13:27,193 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Frequency has  RowIndex : 198
+2014-04-16 02:13:41,976 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_107.txt = 1
+2014-04-16 02:13:42,055 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 2
+2014-04-16 02:13:42,055 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 02:13:42,055 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 1
+2014-04-16 02:13:42,055 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_102.txt = 3
+2014-04-16 02:13:42,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_105.txt = 1
+2014-04-16 02:13:42,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Down_s_Syndrome
+2014-04-16 02:13:42,056 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Down_s_Syndrome has  RowIndex : 17
+2014-04-16 02:13:42,374 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Positive_Occipital_Sharp_Transient_of_Sleep__POSTS_
+2014-04-16 02:13:42,375 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Positive_Occipital_Sharp_Transient_of_Sleep__POSTS_ has  RowIndex : 97
+2014-04-16 02:13:42,684 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Amplitude
+2014-04-16 02:13:42,684 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Amplitude has  RowIndex : 243
+2014-04-16 02:13:43,087 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 1
+2014-04-16 02:13:43,087 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_107.txt = 3
+2014-04-16 02:13:43,087 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 3
+2014-04-16 02:13:43,088 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 4
+2014-04-16 02:13:43,088 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_113.txt = 4
+2014-04-16 02:13:43,088 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_120.txt = 2
+2014-04-16 02:13:43,088 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_104.txt = 1
+2014-04-16 02:13:43,088 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 3
+2014-04-16 02:13:43,088 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_108.txt = 3
+2014-04-16 02:13:43,088 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_122.txt = 1
+2014-04-16 02:13:43,088 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 4
+2014-04-16 02:13:43,088 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_124.txt = 4
+2014-04-16 02:13:43,088 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_116.txt = 2
+2014-04-16 02:13:43,088 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_110.txt = 2
+2014-04-16 02:13:43,088 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Vertex_Sharp_Transient
+2014-04-16 02:13:43,088 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Vertex_Sharp_Transient has  RowIndex : 101
+2014-04-16 02:13:56,691 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_111.txt = 1
+2014-04-16 02:13:56,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_125.txt = 1
+2014-04-16 02:13:56,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_103.txt = 1
+2014-04-16 02:13:56,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_117.txt = 2
+2014-04-16 02:13:56,789 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_112.txt = 1
+2014-04-16 02:13:56,804 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Slow_Alpha_Variant_Rhythms
+2014-04-16 02:13:56,804 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Slow_Alpha_Variant_Rhythms has  RowIndex : 106
+2014-04-16 02:13:57,115 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Generalized
+2014-04-16 02:13:57,115 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Generalized has  RowIndex : 120
+2014-04-16 02:13:57,508 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 3
+2014-04-16 02:13:57,508 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_102.txt = 1
+2014-04-16 02:13:57,508 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_124.txt = 2
+2014-04-16 02:13:57,508 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 3
+2014-04-16 02:13:57,508 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Awake
+2014-04-16 02:13:57,591 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Awake has  RowIndex : 162
+2014-04-16 02:13:57,982 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 1
+2014-04-16 02:13:57,982 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_107.txt = 1
+2014-04-16 02:13:57,982 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 02:13:57,982 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_119.txt = 3
+2014-04-16 02:13:57,982 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_105.txt = 2
+2014-04-16 02:13:57,983 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 2
+2014-04-16 02:13:57,983 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_113.txt = 1
+2014-04-16 02:13:57,983 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_120.txt = 2
+2014-04-16 02:13:57,983 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_12.txt = 1
+2014-04-16 02:13:57,983 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_123.txt = 3
+2014-04-16 02:13:57,983 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 2
+2014-04-16 02:13:57,983 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_111.txt = 1
+2014-04-16 02:13:57,983 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_122.txt = 2
+2014-04-16 02:13:57,983 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_109.txt = 2
+2014-04-16 02:13:57,983 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_125.txt = 3
+2014-04-16 02:13:57,983 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 7
+2014-04-16 02:13:57,983 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_124.txt = 3
+2014-04-16 02:13:57,983 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_103.txt = 1
+2014-04-16 02:13:57,983 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_116.txt = 3
+2014-04-16 02:13:57,983 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_106.txt = 1
+2014-04-16 02:13:57,983 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Polyspike_Complex
+2014-04-16 02:13:58,014 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Polyspike_Complex has  RowIndex : 39
+2014-04-16 02:14:07,924 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_104.txt = 2
+2014-04-16 02:14:07,957 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 02:14:07,984 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Complex
+2014-04-16 02:14:07,984 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Complex has  RowIndex : 62
+2014-04-16 02:14:08,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Temporal
+2014-04-16 02:14:08,286 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Temporal has  RowIndex : 140
+2014-04-16 02:14:08,680 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_107.txt = 2
+2014-04-16 02:14:08,680 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_104.txt = 2
+2014-04-16 02:14:08,680 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_108.txt = 2
+2014-04-16 02:14:08,680 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 1
+2014-04-16 02:14:08,680 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_124.txt = 1
+2014-04-16 02:14:08,680 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_116.txt = 1
+2014-04-16 02:14:08,680 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_117.txt = 2
+2014-04-16 02:14:08,680 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 1
+2014-04-16 02:14:08,680 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_113.txt = 1
+2014-04-16 02:14:08,680 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Phase
+2014-04-16 02:14:08,744 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Phase has  RowIndex : 180
+2014-04-16 02:14:09,046 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Gamma_Rhythm
+2014-04-16 02:14:09,046 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Gamma_Rhythm has  RowIndex : 67
+2014-04-16 02:14:19,698 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Focal
+2014-04-16 02:14:19,735 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Focal has  RowIndex : 126
+2014-04-16 02:14:20,115 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_12.txt = 1
+2014-04-16 02:14:20,115 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_122.txt = 1
+2014-04-16 02:14:20,115 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_109.txt = 1
+2014-04-16 02:14:20,115 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_124.txt = 1
+2014-04-16 02:14:20,115 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_102.txt = 1
+2014-04-16 02:14:20,115 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_110.txt = 1
+2014-04-16 02:14:20,115 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Stage3_Sleep
+2014-04-16 02:14:20,115 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Stage3_Sleep has  RowIndex : 155
+2014-04-16 02:14:20,417 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Child___1_-_12_years_
+2014-04-16 02:14:20,417 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Child___1_-_12_years_ has  RowIndex : 9
+2014-04-16 02:14:20,810 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 1
+2014-04-16 02:14:20,810 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 1
+2014-04-16 02:14:20,810 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_108.txt = 1
+2014-04-16 02:14:20,810 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 02:14:20,810 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Unresponsive
+2014-04-16 02:14:20,810 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Unresponsive has  RowIndex : 148
+2014-04-16 02:14:21,117 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Stressed
+2014-04-16 02:14:21,118 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Stressed has  RowIndex : 163
+2014-04-16 02:14:31,339 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Altered_Consciousness
+2014-04-16 02:14:31,488 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Altered_Consciousness has  RowIndex : 169
+2014-04-16 02:14:31,797 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Delta_Brush
+2014-04-16 02:14:31,797 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Delta_Brush has  RowIndex : 104
+2014-04-16 02:14:32,106 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Multiregional
+2014-04-16 02:14:32,106 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Multiregional has  RowIndex : 127
+2014-04-16 02:14:32,509 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_123.txt = 1
+2014-04-16 02:14:32,509 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Wave_Properties
+2014-04-16 02:14:32,509 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Wave_Properties has  RowIndex : 197
+2014-04-16 02:14:42,041 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Spread_Destination
+2014-04-16 02:14:42,192 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Spread_Destination has  RowIndex : 110
+2014-04-16 02:14:42,502 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Multiple_Spike_Complex
+2014-04-16 02:14:42,502 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Multiple_Spike_Complex has  RowIndex : 29
+2014-04-16 02:14:42,801 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Bilateral
+2014-04-16 02:14:42,802 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Bilateral has  RowIndex : 124
+2014-04-16 02:14:43,203 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_12.txt = 1
+2014-04-16 02:14:43,203 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 1
+2014-04-16 02:14:43,203 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 1
+2014-04-16 02:14:43,203 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_104.txt = 1
+2014-04-16 02:14:43,203 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_122.txt = 1
+2014-04-16 02:14:43,203 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 2
+2014-04-16 02:14:43,203 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_109.txt = 1
+2014-04-16 02:14:43,204 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 4
+2014-04-16 02:14:43,204 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_124.txt = 2
+2014-04-16 02:14:43,204 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_116.txt = 1
+2014-04-16 02:14:43,204 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Fast
+2014-04-16 02:14:43,261 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Fast has  RowIndex : 237
+2014-04-16 02:15:06,180 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 2
+2014-04-16 02:15:06,215 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 02:15:06,215 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 1
+2014-04-16 02:15:06,215 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_120.txt = 1
+2014-04-16 02:15:06,215 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Stage1_Sleep
+2014-04-16 02:15:06,215 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Stage1_Sleep has  RowIndex : 158
+2014-04-16 02:15:06,519 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Small_Sharp_Spikes
+2014-04-16 02:15:06,594 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Small_Sharp_Spikes has  RowIndex : 48
+2014-04-16 02:15:06,903 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Posterior
+2014-04-16 02:15:06,903 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Posterior has  RowIndex : 144
+2014-04-16 02:15:07,440 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 1
+2014-04-16 02:15:07,599 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_107.txt = 2
+2014-04-16 02:15:07,599 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 2
+2014-04-16 02:15:07,599 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_102.txt = 1
+2014-04-16 02:15:07,599 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_12.txt = 1
+2014-04-16 02:15:07,599 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_123.txt = 1
+2014-04-16 02:15:07,599 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 1
+2014-04-16 02:15:07,599 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_104.txt = 2
+2014-04-16 02:15:07,599 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_108.txt = 1
+2014-04-16 02:15:07,599 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_122.txt = 1
+2014-04-16 02:15:07,599 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_109.txt = 1
+2014-04-16 02:15:07,599 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_125.txt = 1
+2014-04-16 02:15:07,599 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 5
+2014-04-16 02:15:07,599 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_124.txt = 2
+2014-04-16 02:15:07,599 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_116.txt = 4
+2014-04-16 02:15:07,599 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_106.txt = 1
+2014-04-16 02:15:07,599 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Brain_Quadrants
+2014-04-16 02:15:07,600 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Brain_Quadrants has  RowIndex : 132
+2014-04-16 02:15:17,259 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_107.txt = 1
+2014-04-16 02:15:17,377 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_104.txt = 1
+2014-04-16 02:15:17,377 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_105.txt = 2
+2014-04-16 02:15:17,377 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Sharp_Wave
+2014-04-16 02:15:17,377 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Sharp_Wave has  RowIndex : 35
+2014-04-16 02:15:17,903 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 1
+2014-04-16 02:15:17,903 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_104.txt = 1
+2014-04-16 02:15:17,903 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 02:15:17,903 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 2
+2014-04-16 02:15:17,903 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_102.txt = 1
+2014-04-16 02:15:17,903 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_105.txt = 2
+2014-04-16 02:15:17,903 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_117.txt = 2
+2014-04-16 02:15:17,903 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_116.txt = 1
+2014-04-16 02:15:17,903 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 1
+2014-04-16 02:15:17,903 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_113.txt = 1
+2014-04-16 02:15:17,903 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_106.txt = 1
+2014-04-16 02:15:17,903 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Stage4_Sleep
+2014-04-16 02:15:17,903 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Stage4_Sleep has  RowIndex : 154
+2014-04-16 02:15:18,316 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Spike_and_Slow_Wave_Complex
+2014-04-16 02:15:18,316 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Spike_and_Slow_Wave_Complex has  RowIndex : 40
+2014-04-16 02:15:18,694 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_107.txt = 1
+2014-04-16 02:15:18,694 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_123.txt = 3
+2014-04-16 02:15:18,694 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_108.txt = 1
+2014-04-16 02:15:18,694 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 4
+2014-04-16 02:15:18,694 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_113.txt = 2
+2014-04-16 02:15:18,694 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Fast_Alpha_Variant_Rhythm
+2014-04-16 02:15:18,694 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Fast_Alpha_Variant_Rhythm has  RowIndex : 100
+2014-04-16 02:15:18,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Fast_Generalized_Spike_Wave
+2014-04-16 02:15:18,996 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Fast_Generalized_Spike_Wave has  RowIndex : 44
+2014-04-16 02:15:32,664 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : _2-3Hz_Generalized_Spike_Wave
+2014-04-16 02:15:32,857 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - _2-3Hz_Generalized_Spike_Wave has  RowIndex : 41
+2014-04-16 02:15:33,156 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Fast_Activity
+2014-04-16 02:15:33,156 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Fast_Activity has  RowIndex : 238
+2014-04-16 02:15:33,539 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 1
+2014-04-16 02:15:33,539 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Simultaneous
+2014-04-16 02:15:33,539 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Simultaneous has  RowIndex : 220
+2014-04-16 02:15:33,845 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Independent_Temporally
+2014-04-16 02:15:33,845 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Independent_Temporally has  RowIndex : 219
+2014-04-16 02:15:42,503 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_108.txt = 1
+2014-04-16 02:15:42,589 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 02:15:42,589 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Lethargic
+2014-04-16 02:15:42,589 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Lethargic has  RowIndex : 171
+2014-04-16 02:15:42,887 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Amnestic
+2014-04-16 02:15:42,887 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Amnestic has  RowIndex : 173
+2014-04-16 02:15:43,420 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Slow
+2014-04-16 02:15:43,420 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Slow has  RowIndex : 234
+2014-04-16 02:15:43,847 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_104.txt = 1
+2014-04-16 02:15:43,847 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 02:15:43,847 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 1
+2014-04-16 02:15:43,847 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_124.txt = 1
+2014-04-16 02:15:43,847 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_105.txt = 2
+2014-04-16 02:15:43,847 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 2
+2014-04-16 02:15:43,847 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_106.txt = 1
+2014-04-16 02:15:43,847 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Negative
+2014-04-16 02:15:43,847 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Negative has  RowIndex : 241
+2014-04-16 02:15:52,550 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_123.txt = 1
+2014-04-16 02:15:52,692 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Sinusoidal_Wave
+2014-04-16 02:15:52,693 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Sinusoidal_Wave has  RowIndex : 53
+2014-04-16 02:15:52,997 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Waveform_Morphology_Form_Potential_Transient
+2014-04-16 02:15:52,997 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Waveform_Morphology_Form_Potential_Transient has  RowIndex : 22
+2014-04-16 02:15:53,374 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 02:15:53,374 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_114.txt = 1
+2014-04-16 02:15:53,374 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Alternate
+2014-04-16 02:15:53,374 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Alternate has  RowIndex : 229
+2014-04-16 02:15:53,680 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Mixture_of_Frequencies
+2014-04-16 02:15:53,680 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Mixture_of_Frequencies has  RowIndex : 204
+2014-04-16 02:16:09,660 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_125.txt = 1
+2014-04-16 02:16:09,801 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_124.txt = 2
+2014-04-16 02:16:09,801 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : REM_Sleep
+2014-04-16 02:16:09,801 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - REM_Sleep has  RowIndex : 160
+2014-04-16 02:16:10,103 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Development
+2014-04-16 02:16:10,103 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Development has  RowIndex : 13
+2014-04-16 02:16:10,404 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Triphasic
+2014-04-16 02:16:10,404 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Triphasic has  RowIndex : 181
+2014-04-16 02:16:10,776 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Beta_Rhythm
+2014-04-16 02:16:10,776 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Beta_Rhythm has  RowIndex : 82
+2014-04-16 02:16:11,173 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_112.txt = 1
+2014-04-16 02:16:11,173 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Theta_Rhythm
+2014-04-16 02:16:11,173 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Theta_Rhythm has  RowIndex : 83
+2014-04-16 02:16:18,633 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Post-Ictal
+2014-04-16 02:16:18,779 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Post-Ictal has  RowIndex : 176
+2014-04-16 02:16:19,088 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Delta_Band__Frequency_0.5-4Hz_
+2014-04-16 02:16:19,089 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Delta_Band__Frequency_0.5-4Hz_ has  RowIndex : 202
+2014-04-16 02:16:19,473 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_107.txt = 2
+2014-04-16 02:16:19,473 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_123.txt = 1
+2014-04-16 02:16:19,473 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 1
+2014-04-16 02:16:19,473 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_108.txt = 2
+2014-04-16 02:16:19,473 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 02:16:19,473 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_102.txt = 2
+2014-04-16 02:16:19,473 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_105.txt = 1
+2014-04-16 02:16:19,473 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_117.txt = 1
+2014-04-16 02:16:19,473 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_110.txt = 1
+2014-04-16 02:16:19,624 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_113.txt = 1
+2014-04-16 02:16:19,624 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 3
+2014-04-16 02:16:19,624 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_120.txt = 1
+2014-04-16 02:16:19,624 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Right_Anterior
+2014-04-16 02:16:19,624 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Right_Anterior has  RowIndex : 135
+2014-04-16 02:16:20,001 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_117.txt = 1
+2014-04-16 02:16:20,001 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Background_Slow_Activity
+2014-04-16 02:16:20,001 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Background_Slow_Activity has  RowIndex : 88
+2014-04-16 02:16:44,936 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 2
+2014-04-16 02:16:45,025 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_123.txt = 1
+2014-04-16 02:16:45,025 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_121.txt = 1
+2014-04-16 02:16:45,025 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_110.txt = 2
+2014-04-16 02:16:45,025 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Premature_Temporal_Theta
+2014-04-16 02:16:45,025 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Premature_Temporal_Theta has  RowIndex : 93
+2014-04-16 02:16:45,328 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Clipping
+2014-04-16 02:16:45,328 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Clipping has  RowIndex : 56
+2014-04-16 02:16:45,624 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Trace_Discontinue
+2014-04-16 02:16:45,624 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Trace_Discontinue has  RowIndex : 95
+2014-04-16 02:16:45,924 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Brain_Hemispheres
+2014-04-16 02:16:45,924 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Brain_Hemispheres has  RowIndex : 129
+014-04-16 02:01:50,244 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_115.txt = 1
+2014-04-16 02:01:50,244 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_118.txt = 1
+2014-04-16 02:01:50,244 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_11.txt = 1
+2014-04-16 02:01:50,244 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_106.txt = 1
+2014-04-16 02:01:50,244 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Anterior
+2014-04-16 02:01:50,244 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Anterior has  RowIndex : 138
+2014-04-16 02:01:50,628 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_107.txt = 2
+2014-04-16 02:01:50,628 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_104.txt = 1
+2014-04-16 02:01:50,628 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_123.txt = 1
+2014-04-16 02:01:50,628 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_111.txt = 1
+2014-04-16 02:01:50,628 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_103.txt = 1
+2014-04-16 02:01:50,628 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_105.txt = 1
+2014-04-16 02:01:50,628 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_117.txt = 3
+2014-04-16 02:01:50,628 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_110.txt = 1
+2014-04-16 02:01:50,628 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Value added to the table for file: EEG_101.txt = 1
+2014-04-16 02:01:50,628 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - rowname : Distribution
+2014-04-16 02:01:51,350 [DEBUG] org.yaolabs.epilepsy.inferences.EEG  - Distribution has  RowIndex : 116

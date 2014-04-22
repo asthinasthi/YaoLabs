@@ -61,20 +61,20 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 		String classarg = "<http://www.owl-ontologies.com/unnamed.owl#BackgroundNormal>";
 
 		ArrayList<OWLNamedIndividual> IndividualsofthisClass = GetAllIndividualsofClass( EEGOwl , classarg);
-		System.out.println("TOTAL number of INDIVIDUALS OF THIS CLASS : "+ classarg.substring(43) + " " + IndividualsofthisClass.size());
-		System.out.println("THE INDIVIDUALS ARE :");
+		//System.out.println("TOTAL number of INDIVIDUALS OF THIS CLASS : "+ classarg.substring(43) + " " + IndividualsofthisClass.size());
+		//System.out.println("THE INDIVIDUALS ARE :");
 		for(OWLNamedIndividual O : IndividualsofthisClass)
 		{
-			System.out.println(O);
+			//System.out.println(O);
 		}
 		
 /******************COUNT ALL THE INDIVIDUALS/FILE BELONGING TO A CLASS************************************************/		
 		
 		Map<OWLNamedIndividual, Integer> IndividualsPerFile = GetIndividualsofaClassFileWise( EEGOwl , IndividualsofthisClass);
-		System.out.println("THE INDIVIDUALS IN VARIOUS FILES ARE :");
+		//System.out.println("THE INDIVIDUALS IN VARIOUS FILES ARE :");
 		for(Map.Entry<OWLNamedIndividual, Integer> entry : IndividualsPerFile.entrySet())
 		{
-			System.out.println(entry);
+			//System.out.println(entry);
 		}
 		GetAllFileIndividuals(EEGOwl);
 		
@@ -83,7 +83,7 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 		
 //			NumberOfClasses(EEGOwl);
 //		createAndShowGUI();
-		System.out.println("****************************************************");
+		//System.out.println("****************************************************");
 //		NumberOfAnnotationsinaFile();
 		
 }
@@ -97,9 +97,9 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 		  
 //		  File file = new File("/Users/Ani/Dropbox/YaoNotes Project/Research/SoftwareDevelopment/workpsace/EEG_more_annotations.owl");
 //		  OWLOntology EEGOwl = manager.loadOntologyFromOntologyDocument(file);
-		  System.out.println("Loaded ontology: " + EEGOwl);
+		  //System.out.println("Loaded ontology: " + EEGOwl);
 		  IRI documentIRI = manager.getOntologyDocumentIRI(EEGOwl);
-	//        System.out.println("    from: " + documentIRI);
+	//        //System.out.println("    from: " + documentIRI);
 	        
 	        OWLReasoner reasoner = createReasoner(EEGOwl);
 	        
@@ -115,13 +115,13 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 				Object[] query = returnvalue.toArray();
 		        String DLquerystring = query[0].toString() + "Hi"; 
         
-			//	System.out.println(DLquerystring);
+			//	//System.out.println(DLquerystring);
 				
 			} catch (ParserException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-	         System.out.println("Number of Annotations in the text file is :" + returnvalue.size() + "\n" +"and they are as follows :" + returnvalue);
+	         //System.out.println("Number of Annotations in the text file is :" + returnvalue.size() + "\n" +"and they are as follows :" + returnvalue);
 	}
 	
 	public static OWLOntology OWLFileLoad(String FilePath){
@@ -134,7 +134,7 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		  System.out.println("Loaded ontology: " + OwlFile);
+		  //System.out.println("Loaded ontology: " + OwlFile);
 		return OwlFile;
 		
 	}
@@ -165,7 +165,7 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 						if(Prop.matches("<http://www.owl-ontologies.com/unnamed.owl#knowtator_mention_class>") &&
 								ObjPropValue.matches( classarg))
 							{
-							//	System.out.println("Background Normal Individuals: " + i);
+							//	//System.out.println("Background Normal Individuals: " + i);
 							AllIndividsofthiClass.add(i);
 								
 							}
@@ -200,7 +200,7 @@ public CountingAlgorithm(OWLOntology EEGOwl){
         ArrayList<OWLNamedIndividual> BackNormalFileInds = new ArrayList<OWLNamedIndividual>();
        
     
-//        System.out.println("BackgroundIndivs size :" + BackgroundNormalIndivs.size() );
+//        //System.out.println("BackgroundIndivs size :" + BackgroundNormalIndivs.size() );
 			
         
 				// the boolean argument specifies direct subclasses
@@ -248,7 +248,7 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 				{
 				String ObjPropValue = value.toString();
 				String Prop = op.toString();
-			//	System.out.println("INDIVIDUAL"+i + "FOR OBJECT PROPERTY " +op + "HAS VALUE " + value);
+			//	//System.out.println("INDIVIDUAL"+i + "FOR OBJECT PROPERTY " +op + "HAS VALUE " + value);
 				if(Prop.matches("<http://www.owl-ontologies.com/unnamed.owl#knowtator_annotation_text_source>") )
 					{
 					   Integer IndsinFileCount = FileIndividuals.get(value);
@@ -272,9 +272,9 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 		  
 	//	  File file = new File("/Users/Ani/Dropbox/YaoNotes Project/Research/SoftwareDevelopment/workpsace/EEG_more_annotations.owl");
 	//	  OWLOntology EEGOwl = manager.loadOntologyFromOntologyDocument(file);
-//		  System.out.println("Loaded ontology: " + EEGOwl);
+//		  //System.out.println("Loaded ontology: " + EEGOwl);
 	//	  IRI documentIRI = manager.getOntologyDocumentIRI(EEGOwl);
-	//        System.out.println("    from: " + documentIRI);
+	//        //System.out.println("    from: " + documentIRI);
 	        
 	        OWLReasoner reasoner = createReasoner(EEGOwl);
 	        
@@ -291,7 +291,7 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 	         try {
 				returnvalue = countind.getInstances("knowtator_mention_class value BackgroundNormal", true);
 				Object[] query = returnvalue.toArray();
-	//			System.out.println("individuals in this owl are: "+ EEGOwl.getIndividualsInSignature());
+	//			//System.out.println("individuals in this owl are: "+ EEGOwl.getIndividualsInSignature());
 	
 	/*COUNTING ALL THE INDIVIDUALS WITH OWN LOGIC*/					
 			for (OWLClass c : EEGOwl.getClassesInSignature()) {
@@ -303,22 +303,22 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 							for (OWLObjectProperty op:
 								EEGOwl.getObjectPropertiesInSignature()) {
 						    
-						    //System.out.println("PRINTING OBJECT PROPERTY" + op);
+						    ////System.out.println("PRINTING OBJECT PROPERTY" + op);
 							NodeSet<OWLNamedIndividual> petValuesNodeSet = reasoner.getObjectPropertyValues(i,op);
 							
 							for (OWLNamedIndividual value :
 							petValuesNodeSet.getFlattened())
 							{
-						//	System.out.println("INDIVIDUAL"+i + "FOR OBJECT PROPERTY " +op + "HAS VALUE " + value);
-						//	System.out.println( "string value of op " + op.toString() );
-						//	System.out.println(op.getObjectPropertiesInSignature().toString());
+						//	//System.out.println("INDIVIDUAL"+i + "FOR OBJECT PROPERTY " +op + "HAS VALUE " + value);
+						//	//System.out.println( "string value of op " + op.toString() );
+						//	//System.out.println(op.getObjectPropertiesInSignature().toString());
 					//		op.getObjectPropertiesInSignature()
 							String ObjPropValue = value.toString();
 							String Prop = op.toString();
 							if(Prop.matches("<http://www.owl-ontologies.com/unnamed.owl#knowtator_mention_class>") &&
 									ObjPropValue.matches( "<http://www.owl-ontologies.com/unnamed.owl#BackgroundNormal>"))
 								{
-								//	System.out.println("Background Normal Individuals: " + i);
+								//	//System.out.println("Background Normal Individuals: " + i);
 									BackgroundNormalIndivs.add(i);
 									
 								}
@@ -326,7 +326,7 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 							}
 							}
 							
-					System.out.println("Number of occurences of class BackgroundNormal are :" + BackgroundNormalIndivs.size());
+					//System.out.println("Number of occurences of class BackgroundNormal are :" + BackgroundNormalIndivs.size());
 				
 			}
 			} catch (ParserException e) {
@@ -338,7 +338,7 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 	         ArrayList<OWLNamedIndividual> BackNormalFileInds = new ArrayList<OWLNamedIndividual>();
 	        
 	     
-//	         System.out.println("BackgroundIndivs size :" + BackgroundNormalIndivs.size() );
+//	         //System.out.println("BackgroundIndivs size :" + BackgroundNormalIndivs.size() );
 				
 	         
 					// the boolean argument specifies direct subclasses
@@ -367,7 +367,7 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 					}
 					}
 					}
-					System.out.println("Size of BackNormalFileInds" + BackNormalFileInds.size() + "Inidividuals are :" + BackNormalFileInds);
+					//System.out.println("Size of BackNormalFileInds" + BackNormalFileInds.size() + "Inidividuals are :" + BackNormalFileInds);
 /*Find the occurences of BackgroundNormal in all files */
 					
           final Map<OWLNamedIndividual,Integer> FileIndividuals = new HashMap<OWLNamedIndividual,Integer>();
@@ -388,7 +388,7 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 					{
 					String ObjPropValue = value.toString();
 					String Prop = op.toString();
-				//	System.out.println("INDIVIDUAL"+i + "FOR OBJECT PROPERTY " +op + "HAS VALUE " + value);
+				//	//System.out.println("INDIVIDUAL"+i + "FOR OBJECT PROPERTY " +op + "HAS VALUE " + value);
 					if(Prop.matches("<http://www.owl-ontologies.com/unnamed.owl#knowtator_annotation_text_source>") )
 						{
 						   Integer IndsinFileCount = FileIndividuals.get(value);
@@ -421,12 +421,12 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 			       frame.setVisible(true);}
 			});
 
-    System.out.println("Number of files in which BackgroundNormal occurs :" + FileIndividuals.size() );
-    System.out.println("File" + FileIndividuals);
+    //System.out.println("Number of files in which BackgroundNormal occurs :" + FileIndividuals.size() );
+    //System.out.println("File" + FileIndividuals);
     
     
-	//System.out.println("Number of occurences of  with class BackgroundNormal are :" + returnvalue.size() + "\n" +"and they are as follows :" + returnvalue);
-	System.out.println("Number of occurences of class BackgroundNormal are :" + returnvalue.size()); 
+	////System.out.println("Number of occurences of  with class BackgroundNormal are :" + returnvalue.size() + "\n" +"and they are as follows :" + returnvalue);
+	//System.out.println("Number of occurences of class BackgroundNormal are :" + returnvalue.size()); 
 	}
 	
 	
@@ -453,11 +453,11 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 	         // set.
 
 	         Set<OWLNamedIndividual> individuals = individualsNodeSet.getFlattened();
-	         System.out.println("Instances of Patients: ");
+	         //System.out.println("Instances of Patients: ");
 	         for (OWLNamedIndividual ind : individuals) {
-	             System.out.println(ind);
+	             //System.out.println(ind);
 	         }
-	         System.out.println("\n");
+	         //System.out.println("\n");
 	         return individuals;
 	}
 	
@@ -480,7 +480,7 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 	         // Now ask the reasoner for the knowtator_text_source_annotation property values for patient individual which is a file name
 	         NodeSet<OWLNamedIndividual> AnnotationInds = reasoner.getObjectPropertyValues(pat, knowtator_text_source_annotation);
 	         
-	         System.out.println("AnnotationInds are " + AnnotationInds.getFlattened());
+	         //System.out.println("AnnotationInds are " + AnnotationInds.getFlattened());
 	         //Every file has many AnnotationInds , find the knowtator annotated mention inds for each of these Annotation Inds
 	         
 	         OWLObjectProperty knowtator_annotated_mention = fac.getOWLObjectProperty(IRI
@@ -492,16 +492,16 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 	         for(OWLNamedIndividual i : AnnotationInds.getFlattened() )
 	         {
 	        	 NodeSet<OWLNamedIndividual> Annotation_mentionInd = reasoner.getObjectPropertyValues(i, knowtator_annotated_mention);
-	        	 System.out.println("Annotated mention " + Annotation_mentionInd.getFlattened());
+	        	 //System.out.println("Annotated mention " + Annotation_mentionInd.getFlattened());
 	        	 
 	        	 
 	        	 for(OWLNamedIndividual j : Annotation_mentionInd.getFlattened() )
 	        	 {
 	        		 NodeSet<OWLNamedIndividual> Classes = reasoner.getObjectPropertyValues(j, knowtator_mention_class);
-	        		 System.out.println(Classes.getFlattened());
+	        		 //System.out.println(Classes.getFlattened());
 	        		 for(OWLNamedIndividual c : Classes.getFlattened())
 	        		 {
-	        			 System.out.println("Classes are : " + c);
+	        			 //System.out.println("Classes are : " + c);
 
 	        				 PatientProperties.add(c);
 	        		 }
@@ -533,12 +533,12 @@ public CountingAlgorithm(OWLOntology EEGOwl){
 
 	         
 	         Set<OWLClass> SubClasses = SubClassesOWlSet.getFlattened();
-	         System.out.println("Total subclasses found is : " + SubClasses.size() );
-	         System.out.println("SubClasses of 	EEG: ");
+	         //System.out.println("Total subclasses found is : " + SubClasses.size() );
+	         //System.out.println("SubClasses of 	EEG: ");
 	         for (OWLClass ind : SubClasses) {
-	             System.out.println(ind);
+	             //System.out.println(ind);
 	         }
-	         System.out.println("\n");
+	         //System.out.println("\n");
 	         return SubClasses;
 	}
 	    public static OWLReasoner createReasoner(final OWLOntology rootOntology) {

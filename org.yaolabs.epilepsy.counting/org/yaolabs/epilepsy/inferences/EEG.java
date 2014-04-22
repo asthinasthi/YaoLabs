@@ -8,7 +8,6 @@ import java.io.PrintStream;
 import java.util.Set;
 
 import org.apache.log4j.Logger;
-
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.model.AddAxiom;
 import org.semanticweb.owlapi.model.IRI;
@@ -32,7 +31,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.logging.FileHandler;
 
-
 import org.semanticweb.owlapi.model.OWLClass;
 import org.semanticweb.owlapi.model.OWLNamedIndividual;
 import org.semanticweb.owlapi.model.OWLOntology;
@@ -41,11 +39,14 @@ import org.yaolabs.epilepsy.counting.CountingAlgorithm;
 
 
 public class EEG {
+	public static OWLOntology EEGOwl;
 	public EEG(OWLOntology EEGOwl )
 	{
 		this.EEGOwl = EEGOwl;
-		////System.out.println("ONtology passed is " + EEGOwl.toString());
+		System.out.println("Ontology passed is " + EEGOwl.toString());
 	}
+	
+	
 	static Logger logger = Logger.getLogger(org.yaolabs.epilepsy.inferences.EEG.class);
 	static FileHandler fh;
 	static PrintStream stdout = System.out; 
@@ -54,7 +55,8 @@ public class EEG {
 	  
 	  public static Map<OWLNamedIndividual,ArrayList<Atomic_Vector>> patientVectorMap = new HashMap<OWLNamedIndividual,ArrayList<Atomic_Vector>>();
 	  
-	public static void main(String args[]) 
+	//public static void main(String args[])
+	public static void main(String args[])
 	
 		{
 		    try {
@@ -73,7 +75,7 @@ public class EEG {
 
 				//get all FILE INDIVIDUALS , which are the patients.
 			 File file = new File("/Users/Ani/Dropbox/YaoNotes Project/Research/SoftwareDevelopment/OwlFiles/EEG_Summary_Dev.owl");
-//			OWLOntology EEGOwl = OWLFileLoad("/Users/Ani/Dropbox/YaoNotes Project/Research/SoftwareDevelopment/OwlFiles/EEG_Summary_Dev.owl");
+			//OWLOntology EEGOwl = OWLFileLoad("/Users/Ani/Dropbox/YaoNotes Project/Research/SoftwareDevelopment/OwlFiles/EEG_Summary_Dev.owl");
 				
 			CountAlgoCall DataCollected = new CountAlgoCall(EEGOwl);
 			

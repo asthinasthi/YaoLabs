@@ -27,7 +27,8 @@ public class CreateTable {
 	public CreateTable(OWLOntology EEGOwl )
 	{
 		this.EEGOwl = EEGOwl;
-		////System.out.println("ONtology passed is " + EEGOwl.toString());
+		System.out.println("Ontology passed is " + EEGOwl.toString());
+
 	}
 	final static int NUM_ANNOTATED_FILES  = 400;
 	public static int getNumAnnotatedFiles() {
